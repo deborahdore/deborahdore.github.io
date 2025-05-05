@@ -23,20 +23,13 @@ announcements:
 
 ---
 
-My background has always revolved around Artificial Intelligence. During my bachelor, I began studying Computer Science;
-basic subjects included Databases, Algorithms, Mathematical Analysis and Coding. Later, during my Master, I specialized
-in Artificial Intelligence through the study of Machine Learning, Deep Learning and Natural Language Processing. The
-choice to do a Ph.D. was a natural consequence of my studies.
+My background is rooted in Artificial Intelligence. During my Bachelor's, I studied core topics in Computer Science such
+as Databases, Algorithms, and Programming. In my Master's, I specialized in AI through courses in Machine Learning, Deep
+Learning, and Natural Language Processing, which naturally led me to pursue a Ph.D.
 
-Nowadays, my work focuses on Argument Mining, a recent sub-field of Natural Language Processing. Argument Mining deals
-with the automatic extraction of arguments, and their boundaries, from natural language text. Arguments can be connected
-with other arguments through supporting or attacking relations. An argument can be classified into “a claim” or “a
-premise”. A claim is a statement while a premise is another statement done to support or attack the claim. Argument
-identification and relation classification are the basic principal tasks of Argument Mining. Understanding arguments and
-their relations can help the general public detect logical fallacies and propaganda in someone’s speech and therefore
-help the public to be prevented from manipulation.
+Currently, I focus on Argument Mining, a subfield of NLP concerned with automatically identifying arguments in text and
+classifying their structure—claims, premises, and their supporting or attacking relationships. This technology can help
+expose logical fallacies and propaganda, fostering more informed public discourse.
 
-My work primarily focuses on the application of Argument Mining in political debates. During the debates, a candidate
-can make a claim and a premise to support that claim; its opponent can make another claim attacking the debaters’ claim
-and so on. This creates an intricate argumentation graph that forms a natural application for argument mining
-techniques. In this domain, Argument Mining can ultimately help the voters make a more accurate and thoughtful decision.
+My research applies Argument Mining to political debates, where speakers build complex argumentative structures. Mapping
+these interactions can support voters in making better-informed decisions.
