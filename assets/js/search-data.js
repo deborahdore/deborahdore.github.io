@@ -37,8 +37,17 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "news-i-started-my-phd-at-the-université-côte-d-azur-my-work-will-focus-on-argument-mining-on-political-debates-this-research-is-supported-by-the-3ia-côte-d-azur",
-          title: 'I started my PhD at the Université Côte d’Azur! My work will focus...',
+        },{id: "news-i-m-thrilled-to-share-that-i-have-successfully-defended-my-master-s-thesis-leveraging-structural-knowledge-for-argument-mining-in-political-debates-at-sapienza-università-di-roma-earning-a-final-mark-of-110-110-cum-laude",
+          title: '🎓 I’m thrilled to share that I have successfully defended my Master’s thesis...',
+          description: "",
+          section: "News",},{id: "news-i-started-my-phd-at-the-université-côte-d-azur-my-work-will-focus-on-argument-mining-on-political-debates-this-research-is-supported-by-the-3ia-côte-d-azur",
+          title: '🎓 I started my PhD at the Université Côte d’Azur! My work will...',
+          description: "",
+          section: "News",},{id: "news-a-new-chapter-begins-we-ve-officially-branched-out-from-wimmics-to-form-marianne-a-new-research-group-dedicated-to-argument-mining-political-debates-and-misinformation",
+          title: '🚀 A new chapter begins! We’ve officially branched out from WIMMICS to form...',
+          description: "",
+          section: "News",},{id: "news-our-paper-repairing-fallacious-argumentation-in-political-debates-has-been-accepted-to-eca-2025-in-this-work-we-explore-how-to-identify-and-correct-fallacies-in-political-debates-using-computational-approaches-a-step-toward-improving-the-quality-of-public-debate",
+          title: '📢 Our paper “Repairing Fallacious Argumentation in Political Debates” has been accepted to...',
           description: "",
           section: "News",},{
         id: 'social-email',
