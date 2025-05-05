@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - deborahdore
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - deborahdore/multi-source-lms-for-audio
+  - deborahdore/cross-lingual-embeddings
+  - deborahdore/Smart-Houses
+  - deborahdore/Know-A-Person-By-Its-Heart
+  - deborahdore/number-recognition-on-aws
+  - deborahdore/segmentation-is-all-you-need
+  - deborahdore/SarcasTweet
+  - deborahdore/prodigit-bot
+  - deborahdore/IMDB-dataset-exploration

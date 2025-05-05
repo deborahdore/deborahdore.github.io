@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student in NLP at the <a href='https://www.inria.fr/fr/marianne'>Marianne TEAM</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: myphoto.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>E416 - Bâtiment E</p>
+    <p>Université Côte d'Azur</p>
+    <p> 06410 Biot </p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,8 +23,20 @@ announcements:
 
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My background has always revolved around Artificial Intelligence. During my bachelor, I began studying Computer Science;
+basic subjects included Databases, Algorithms, Mathematical Analysis and Coding. Later, during my Master, I specialized
+in Artificial Intelligence through the study of Machine Learning, Deep Learning and Natural Language Processing. The
+choice to do a Ph.D. was a natural consequence of my studies.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Nowadays, my work focuses on Argument Mining, a recent sub-field of Natural Language Processing. Argument Mining deals
+with the automatic extraction of arguments, and their boundaries, from natural language text. Arguments can be connected
+with other arguments through supporting or attacking relations. An argument can be classified into “a claim” or “a
+premise”. A claim is a statement while a premise is another statement done to support or attack the claim. Argument
+identification and relation classification are the basic principal tasks of Argument Mining. Understanding arguments and
+their relations can help the general public detect logical fallacies and propaganda in someone’s speech and therefore
+help the public to be prevented from manipulation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My work primarily focuses on the application of Argument Mining in political debates. During the debates, a candidate
+can make a claim and a premise to support that claim; its opponent can make another claim attacking the debaters’ claim
+and so on. This creates an intricate argumentation graph that forms a natural application for argument mining
+techniques. In this domain, Argument Mining can ultimately help the voters make a more accurate and thoughtful decision.

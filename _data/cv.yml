@@ -4,7 +4,7 @@
     - name: Full Name
       value: Deborah Dore
     - name: Date of Birth
-      value: 10th Janurary 1999
+      value: 10th January 1999
     - name: Languages
       value: Italian, English, French
 
@@ -35,7 +35,6 @@
         - Supervisors: Serena Villata and Elena Cabrio
         - Focused on Argument Mining and Political Debates.
         - [ Link ](https://3ia.univ-cotedazur.eu/research/3ia-students/phd-students-axis-1)
-
     - title: Software Engineer
       institution: Certimeter Group
       year: 2021
@@ -51,7 +50,6 @@
       description:
         - Assisted in a scientific event on Natural Language Argumentation.
         - [ Event ](https://gdr-tal.ls2n.fr/event/journee-natural-language-argumentation-gdr-tal-gdr-radia/)
-
     - title: Student Delegate
       institution: Fondazione Collegio Universitario Einaudi, Turin, Italy
       year: 2020 - 2021
