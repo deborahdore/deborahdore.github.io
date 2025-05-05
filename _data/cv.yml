@@ -51,8 +51,8 @@
       institution: Fondazione Collegio Universitario Einaudi, Turin, Italy
       year: 2020 - 2021
       description:
-        - Advocated student concerns to administration.
-        - [ Collegio Einaudi ](https://www.collegioeinaudi.it)
+        Advocated student concerns to administration.
+        [ Collegio Einaudi ](https://www.collegioeinaudi.it)
 
 - title: Scholarships
   type: time_table
@@ -91,15 +91,15 @@
   contents:
     - title: Deep Learning
       items:
-        - PyTorch
-        - HuggingFace
+        PyTorch
+        HuggingFace
     - title: Software Development
       items:
-        - Spring Boot, Kafka, Fluent Bit
-        - ReactJS, PySpark, Docker, AWS
+        Spring Boot, Kafka, Fluent Bit
+        ReactJS, PySpark, Docker, AWS
     - title: Programming
       items:
-        - Python, Java, C, R, JavaScript, SQL
+        Python, Java, C, R, JavaScript, SQL
 
 - title: Other Interests
   type: list
