@@ -2,96 +2,111 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Deborah Dore
     - name: Date of Birth
-      value: 14th March 1879
+      value: 10th Janurary 1999
     - name: Languages
-      value: English, German
+      value: Italian, English, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Argument Mining
+      institution: Université Côte d'Azur, Nice, France
+      year: 2024 - 2027
+    - title: Master in Deep Learning & Applied AI
+      institution: Sapienza Università di Roma, Rome, Italy
+      year: 2021 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Score: 110/110 cum laude
+    - title: Bachelor in Computer Science
+      institution: Università degli Studi di Torino, Turin, Italy
+      year: 2017 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Score: 110/110
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PhD Student in NLP
+      institution: CNRS / 3IA Côte d'Azur
+      year: 2024 - 2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Supervisors: Serena Villata and Elena Cabrio
+        - Focused on Argument Mining and Political Debates.
+        - [ Link ](https://3ia.univ-cotedazur.eu/research/3ia-students/phd-students-axis-1)
+
+    - title: Software Engineer
+      institution: Certimeter Group
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Full-stack development using Spring Boot and React.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Volunteer
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Volunteer
+      institution: Journée Natural Language Argumentation, Nice, France
+      year: 2023
+      description:
+        - Assisted in a scientific event on Natural Language Argumentation.
+        - [ Event ](https://gdr-tal.ls2n.fr/event/journee-natural-language-argumentation-gdr-tal-gdr-radia/)
 
-- title: Honors and Awards
+    - title: Student Delegate
+      institution: Fondazione Collegio Universitario Einaudi, Turin, Italy
+      year: 2020 - 2021
+      description:
+        - Advocated student concerns to administration.
+        - [ Collegio Einaudi ](https://www.collegioeinaudi.it)
+
+- title: Scholarships
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Master's Thesis Abroad
+      institution: Sapienza Università di Roma
+      year: 2023
+      description:
+        - Awarded to top students to develop thesis abroad in collaboration with a Top Lab.
+    - title: Student Collaboration Scholarship
+      institution: Sapienza Università di Roma
+      year: 2023
+    - title: Erasmus+ Scholarship
+      institution: Sapienza Università di Roma
+      year: 2022
+      description:
+        - 6-month study at Universidade do Porto.
+    - title: Erasmus+ Scholarship
+      institution: Università degli Studi di Torino
+      year: 2022
+      description:
+        - 6-month study at Università Tecnica di Cluj-Napoca.
 
-- title: Academic Interests
+- title: Certificates
+  type: list
+  contents:
+    - <a href="https://www.credly.com/badges/cbe8a6cf-b73a-4744-9707-eeb7171f1ee5/public_url">AWS Academy Cloud Foundations - Amazon Web Services (2022)</a>
+
+- title: Publications
+  type: list
+  contents:
+    - <strong>Repairing Fallacious Argumentation in Political Debates</strong> (2025) – Introduces a dataset and methods for repairing fallacious arguments in political discourse.
+
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Deep Learning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - PyTorch
+        - HuggingFace
+    - title: Software Development
       items:
-        - Description 1.
-        - Description 2.
+        - Spring Boot, Kafka, Fluent Bit
+        - ReactJS, PySpark, Docker, AWS
+    - title: Programming
+      items:
+        - Python, Java, C, R, JavaScript, SQL
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Travelling, Language learning, Reading
