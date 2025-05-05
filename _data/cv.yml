@@ -32,9 +32,7 @@
       institution: CNRS / 3IA Côte d'Azur
       year: 2024 - 2027
       description:
-        - Supervisors: Serena Villata and Elena Cabrio
-        - Focused on Argument Mining and Political Debates.
-        - [ Link ](https://3ia.univ-cotedazur.eu/research/3ia-students/phd-students-axis-1)
+        Focus on Argument Mining and Political Debates.
     - title: Software Engineer
       institution: Certimeter Group
       year: 2021
@@ -48,8 +46,7 @@
       institution: Journée Natural Language Argumentation, Nice, France
       year: 2023
       description:
-        - Assisted in a scientific event on Natural Language Argumentation.
-        - [ Event ](https://gdr-tal.ls2n.fr/event/journee-natural-language-argumentation-gdr-tal-gdr-radia/)
+        Assisted in a scientific event on Natural Language Argumentation.
     - title: Student Delegate
       institution: Fondazione Collegio Universitario Einaudi, Turin, Italy
       year: 2020 - 2021
@@ -64,7 +61,7 @@
       institution: Sapienza Università di Roma
       year: 2023
       description:
-        - Awarded to top students to develop thesis abroad in collaboration with a Top Lab.
+        Awarded to top students to develop thesis abroad in collaboration with a Top Lab.
     - title: Student Collaboration Scholarship
       institution: Sapienza Università di Roma
       year: 2023
@@ -72,12 +69,12 @@
       institution: Sapienza Università di Roma
       year: 2022
       description:
-        - 6-month study at Universidade do Porto.
+        6-month study at Universidade do Porto.
     - title: Erasmus+ Scholarship
       institution: Università degli Studi di Torino
       year: 2022
       description:
-        - 6-month study at Università Tecnica di Cluj-Napoca.
+        6-month study at Università Tecnica di Cluj-Napoca.
 
 - title: Certificates
   type: list
