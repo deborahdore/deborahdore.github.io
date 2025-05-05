@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Deborah Dore",
-    "label": "PhD",
+    "label": "PhD Student",
     "image": "",
     "email": "deborah.dore@inria.fr",
     "phone": "+33 7 44 40 14 36",
     "url": "https://deborahdore.github.io",
-    "summary": "PhD student in nlp",
+    "summary": "PhD student in Natural Language Processing at CNRS, working on argument mining and political discourse.",
     "location": {
       "address": "",
       "postalCode": "06600",
       "city": "Antibes",
-      "countryCode": "France",
-      "region": ""
+      "countryCode": "FR",
+      "region": "Provence-Alpes-Côte d'Azur"
     },
     "profiles": [
       {
@@ -30,23 +30,22 @@
   "work": [
     {
       "name": "CNRS",
-      "position": "PhD",
+      "position": "PhD Student",
       "url": "https://3ia.univ-cotedazur.eu/research/3ia-students/phd-students-axis-1",
       "startDate": "2024-11",
       "endDate": "2027-10",
-      "summary": "PhD student in Natural Language Processing with Serena Villata and Elena Cabrio as supervisors.",
+      "summary": "PhD in Natural Language Processing under the supervision of Serena Villata and Elena Cabrio.",
       "highlights": [
-        "Argument Mining",
-        "Political Debates"
+        "Argument mining",
+        "Analysis and correction of fallacious reasoning in political discourse"
       ]
     },
     {
       "name": "Certimeter Group",
       "position": "Software Engineer",
-      "url": "",
       "startDate": "2021-01",
       "endDate": "2021-08",
-      "summary": "Full-stack developer using Spring Boot and React.",
+      "summary": "Full-stack developer working with Spring Boot and ReactJS.",
       "highlights": []
     }
   ],
@@ -58,7 +57,7 @@
       "url": "https://gdr-tal.ls2n.fr/event/journee-natural-language-argumentation-gdr-tal-gdr-radia/",
       "startDate": "2023-11-27",
       "endDate": "2023-11-27",
-      "summary": "Assisted at Journée Natural Language Argumentation, a scientific day on the theme of Argumentation in Natural Language: Extraction, Generation and Reasoning.",
+      "summary": "Volunteered at a scientific event focused on argument extraction, generation, and reasoning in natural language.",
       "highlights": []
     },
     {
@@ -68,7 +67,7 @@
       "url": "https://www.collegioeinaudi.it",
       "startDate": "2020-01",
       "endDate": "2021-08",
-      "summary": "Advocated student concerns with administration.",
+      "summary": "Represented student interests in administrative matters.",
       "highlights": []
     }
   ],
@@ -89,7 +88,7 @@
       "location": "Rome, Italy",
       "url": "https://www.uniroma1.it/it/pagina-strutturale/home",
       "area": "Deep Learning & Applied AI",
-      "studyType": "Master",
+      "studyType": "Master's Degree",
       "startDate": "2021-09",
       "endDate": "2024-05",
       "score": "110/110 cum laude",
@@ -100,7 +99,7 @@
       "location": "Turin, Italy",
       "url": "https://www.unito.it",
       "area": "Computer Science",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor's Degree",
       "startDate": "2017-09",
       "endDate": "2021-04",
       "score": "110/110",
@@ -112,29 +111,25 @@
       "title": "Master's Thesis Abroad",
       "date": "2023-09",
       "awarder": "Sapienza Università di Roma",
-      "url": "",
-      "summary": "Awarded to top students to develop their thesis outside Italy in collaboration with a lab abroad."
+      "summary": "Granted to top students to develop their thesis in collaboration with an international research lab."
     },
     {
       "title": "Student Collaboration Scholarship",
       "date": "2023-05",
       "awarder": "Sapienza Università di Roma",
-      "url": "",
-      "summary": ""
+      "summary": "Merit-based award supporting student collaboration in academic activities."
     },
     {
       "title": "Erasmus+ Scholarship",
       "date": "2022-01",
       "awarder": "Sapienza Università di Roma",
-      "url": "",
-      "summary": "Erasmus+ Scholarship to visit Universidade do Porto for 6 months."
+      "summary": "Exchange semester at Universidade do Porto."
     },
     {
       "title": "Erasmus+ Scholarship",
       "date": "2022-01",
       "awarder": "Università degli Studi di Torino",
-      "url": "",
-      "summary": "Erasmus+ Scholarship to visit Università Tecnica di Cluj-Napoca for 6 months."
+      "summary": "Exchange semester at Universitatea Tehnică din Cluj-Napoca."
     }
   ],
   "certificates": [
@@ -142,24 +137,20 @@
       "name": "AWS Academy Cloud Foundations",
       "date": "2022-05",
       "issuer": "Amazon Web Services Training and Certification",
-      "url": "https://www.credly.com/badges/cbe8a6cf-b73a-4744-9707-eeb7171f1ee5/public_url",
-      "icon": "fa-solid fa-location-dot"
+      "url": "https://www.credly.com/badges/cbe8a6cf-b73a-4744-9707-eeb7171f1ee5/public_url"
     }
   ],
   "publications": [
     {
       "name": "Repairing Fallacious Argumentation in Political Debates",
-      "publisher": "",
       "releaseDate": "2025-09",
-      "url": "",
-      "summary": "We introduce a novel task: repairing fallacious arguments in political discourse to curb misinformation and enhance debate quality. To support this, we present FallacyFix, a dataset of repaired arguments, along with tailored generation and evaluation methods."
+      "summary": "Introduced FallacyFix, a dataset and methodology for repairing fallacious arguments in political discourse to improve reasoning quality and counter misinformation."
     }
   ],
   "skills": [
     {
       "name": "Deep Learning",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "level": "Advanced",
       "keywords": [
         "PyTorch",
         "HuggingFace"
@@ -167,8 +158,7 @@
     },
     {
       "name": "Software Development",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "level": "Advanced",
       "keywords": [
         "Spring Boot",
         "Kafka",
@@ -181,8 +171,7 @@
     },
     {
       "name": "Programming",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "level": "Advanced",
       "keywords": [
         "Python",
         "Java",
@@ -196,18 +185,15 @@
   "languages": [
     {
       "language": "Italian",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     },
     {
       "language": "French",
-      "fluency": "Intermediate",
-      "icon": ""
+      "fluency": "Intermediate"
     }
   ]
 }
