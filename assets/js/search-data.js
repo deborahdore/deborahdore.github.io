@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -31,13 +31,13 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "Teaching",
-          description: "Teaching Courses &amp; Materials.",
+          title: "teaching",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "news-i-started-my-phd-at-the-université-côte-d-azur-my-work-will-focus-on-argument-mining-on-political-debates-this-research-is-supported-by-the",
+        },{id: "news-i-started-my-phd-at-the-université-côte-d-azur-my-work-will-focus-on-argument-mining-on-political-debates-this-research-is-supported-by-the-3ia-côte-d-azur",
           title: 'I started my PhD at the Université Côte d’Azur! My work will focus...',
           description: "",
           section: "News",},{
