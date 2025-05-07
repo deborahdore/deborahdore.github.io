@@ -39,8 +39,8 @@ ninja.data = [{
           section: "News",},{id: "news-a-new-chapter-begins-we-ve-officially-branched-out-from-wimmics-to-form-marianne-a-new-research-group-dedicated-to-argument-mining-political-debates-and-misinformation",
           title: '🚀 A new chapter begins! We’ve officially branched out from WIMMICS to form...',
           description: "",
-          section: "News",},{id: "news-our-paper-repairing-fallacious-argumentation-in-political-debates-has-been-accepted-to-eca-2025-in-this-work-we-explore-how-to-identify-and-correct-fallacies-in-political-debates-using-computational-approaches-a-step-toward-improving-the-quality-of-public-debate",
-          title: '📢 Our paper “Repairing Fallacious Argumentation in Political Debates” has been accepted to...',
+          section: "News",},{id: "news-our-paper-repairing-fallacious-argumentation-in-political-debates-pierpaolo-goffredo-deborah-dore-elena-cabrio-serena-villata-has-been-accepted-to-eca-2025-in-this-work-we-explore-how-to-identify-and-correct-fallacies-in-political-debates-using-computational-approaches-a-step-toward-improving-the-quality-of-public-debate",
+          title: '📢 Our paper “Repairing Fallacious Argumentation in Political Debates” (Pierpaolo Goffredo, Deborah Dore,...',
           description: "",
           section: "News",},{
         id: 'social-email',
