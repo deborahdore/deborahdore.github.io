@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "news-i-m-thrilled-to-share-that-i-have-successfully-defended-my-master-s-thesis-leveraging-structural-knowledge-for-argument-mining-in-political-debates-at-sapienza-università-di-roma-earning-a-final-mark-of-110-110-cum-laude",
           title: '🎓 I’m thrilled to share that I have successfully defended my Master’s thesis...',
           description: "",
