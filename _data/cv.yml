@@ -28,27 +28,23 @@
       institution: CNRS / 3IA Côte d'Azur
       year: 2024 - 2027
       description:
-        - Argument Mining and Political Debates Analysis
-        - Fallacy Detection and Repair in Political Debates
+        Argument Mining and Political Debates Analysis
+        Fallacy Detection and Repair in Political Debates
     - title: Research Intern in Argument Mining
       institution: CNRS
       year: 2023 - 2024
       description:
-        - Argument Structure Extraction
-        - Knowledge Graph Construction
-        - Political Text Analysis
+        Argument Structure Extraction, Knowledge Graph Construction, Political Text Analysis
     - title: Software Engineer
       institution: Certimeter Group
       year: 2021
       description:
-        - Microservices with Spring Boot
-        - Frontend Development with ReactJS
+        Microservices with Spring Boot, Frontend Development with ReactJS
     - title: Software Engineer Intern
       institution: Certimeter Group
       year: 2020 - 2021
       description:
-        - Agile Development
-        - Team Collaboration
+        Agile Development, Team Collaboration
 
 - title: Publications
   type: list
@@ -62,17 +58,17 @@
       institution: Centrale Méditerranée, Nice, France
       year: 2025
       description:
-        - Exploratory data analysis, cleaning, visualization in Python
+        Exploratory data analysis, cleaning, visualization in Python
     - title: Teaching Assistant – NLP (Traitement du Langage Naturel)
       institution: Université Côte d’Azur, Sophia-Antipolis, France
       year: 2025
       description:
-        - Lab sessions for M2 MIAGE and L3 Informatique students
+        Lab sessions for M2 MIAGE and L3 Informatique students
     - title: Guest Lecturer – Neural Networks and Backpropagation
       institution: Université Côte d’Azur, Sophia-Antipolis, France
       year: 2025
       description:
-        - Delivered theoretical lecture on neural networks
+        Delivered theoretical lecture on neural networks
 
 - title: Scholarships
   type: time_table
@@ -81,22 +77,22 @@
       institution: Sapienza Università di Roma
       year: 2023
       description:
-        - Developed thesis in international research environment
+        Developed thesis in international research environment
     - title: Student Collaboration Scholarship
       institution: Sapienza Università di Roma
       year: 2023
       description:
-        - Participation in institutional support activities
+        Participation in institutional support activities
     - title: Erasmus+ Scholarship
       institution: Sapienza Università di Roma
       year: 2022
       description:
-        - Exchange semester at Universidade do Porto, Portugal
+        Exchange semester at Universidade do Porto, Portugal
     - title: Erasmus+ Scholarship
       institution: Università degli Studi di Torino
       year: 2022
       description:
-        - Exchange semester at Universitatea Tehnică din Cluj-Napoca, Romania
+        Exchange semester at Universitatea Tehnică din Cluj-Napoca, Romania
 
 - title: Certificates
   type: list
@@ -110,13 +106,12 @@
       institution: Journée Natural Language Argumentation, Nice, France
       year: 2023
       description:
-        - Assisted with event logistics and coordination
+        Assisted with event logistics and coordination
     - title: Student Delegate
       institution: Fondazione Collegio Universitario Einaudi, Turin, Italy
       year: 2020 - 2021
       description:
-        - Represented students in academic matters
-        - [ Collegio Einaudi ](https://www.collegioeinaudi.it)
+        Represented [Collegio Einaudi](https://www.collegioeinaudi.it) students in academic matters
 
 - title: Skills
   type: nested_list
