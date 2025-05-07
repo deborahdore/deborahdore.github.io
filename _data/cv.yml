@@ -11,15 +11,15 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in NLP
+    - title: PhD in Natural Language Processing
       institution: Université Côte d'Azur, Nice, France
       year: 2024 - 2027
-    - title: Master in Artificial Intelligence
+    - title: Master's Degree in Deep Learning & Applied AI
       institution: Sapienza Università di Roma, Rome, Italy
       year: 2021 - 2024
       description:
         - Score: 110/110 cum laude
-    - title: Bachelor in Computer Science
+    - title: Bachelor's Degree in Computer Science
       institution: Università degli Studi di Torino, Turin, Italy
       year: 2017 - 2021
       description:
@@ -32,27 +32,51 @@
       institution: CNRS / 3IA Côte d'Azur
       year: 2024 - 2027
       description:
-        Focus on Argument Mining and Political Debates.
+        - Argument Mining and Political Debates Analysis
+        - Fallacy Detection and Repair in Political Debates
+    - title: Research Intern in Argument Mining
+      institution: CNRS
+      year: 2023 - 2024
+      description:
+        - Argument Structure Extraction
+        - Knowledge Graph Construction
+        - Political Text Analysis
     - title: Software Engineer
       institution: Certimeter Group
       year: 2021
       description:
-        - Full-stack development using Spring Boot and React.
-
-- title: Volunteer
-  type: time_table
-  contents:
-    - title: Volunteer
-      institution: Journée Natural Language Argumentation, Nice, France
-      year: 2023
-      description:
-        Assisted in a scientific event on Natural Language Argumentation.
-    - title: Student Delegate
-      institution: Fondazione Collegio Universitario Einaudi, Turin, Italy
+        - Microservices with Spring Boot
+        - Frontend Development with ReactJS
+    - title: Software Engineer Intern
+      institution: Certimeter Group
       year: 2020 - 2021
       description:
-        Advocated student concerns to administration.
-        [ Collegio Einaudi ](https://www.collegioeinaudi.it)
+        - Agile Development
+        - Team Collaboration
+
+- title: Publications
+  type: list
+  contents:
+    - <strong>Repairing Fallacious Argumentation in Political Debates</strong> (2025) – Introduces a dataset and methods for repairing fallacious arguments in political discourse.
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Lecturer – Data Analysis and Visualization
+      institution: Centrale Méditerranée, Nice, France
+      year: 2025
+      description:
+        - Exploratory data analysis, cleaning, visualization in Python
+    - title: Teaching Assistant – NLP (Traitement du Langage Naturel)
+      institution: Université Côte d’Azur, Sophia-Antipolis, France
+      year: 2025
+      description:
+        - Lab sessions for M2 MIAGE and L3 Informatique students
+    - title: Guest Lecturer – Neural Networks and Backpropagation
+      institution: Université Côte d’Azur, Sophia-Antipolis, France
+      year: 2025
+      description:
+        - Delivered theoretical lecture on neural networks
 
 - title: Scholarships
   type: time_table
@@ -61,45 +85,71 @@
       institution: Sapienza Università di Roma
       year: 2023
       description:
-        Awarded to top students to develop thesis abroad in collaboration with a Top Lab.
+        - Developed thesis in international research environment
     - title: Student Collaboration Scholarship
       institution: Sapienza Università di Roma
       year: 2023
+      description:
+        - Participation in institutional support activities
     - title: Erasmus+ Scholarship
       institution: Sapienza Università di Roma
       year: 2022
       description:
-        6-month study at Universidade do Porto.
+        - Exchange semester at Universidade do Porto, Portugal
     - title: Erasmus+ Scholarship
       institution: Università degli Studi di Torino
       year: 2022
       description:
-        6-month study at Università Tecnica di Cluj-Napoca.
+        - Exchange semester at Universitatea Tehnică din Cluj-Napoca, Romania
 
 - title: Certificates
   type: list
   contents:
-    - <a href="https://www.credly.com/badges/cbe8a6cf-b73a-4744-9707-eeb7171f1ee5/public_url">AWS Academy Cloud Foundations - Amazon Web Services (2022)</a>
+    - <a href="https://www.credly.com/badges/cbe8a6cf-b73a-4744-9707-eeb7171f1ee5/public_url">AWS Academy Cloud Foundations – Amazon Web Services (2022)</a>
 
-- title: Publications
-  type: list
+- title: Volunteer
+  type: time_table
   contents:
-    - <strong>Repairing Fallacious Argumentation in Political Debates</strong> (2025) – Introduces a dataset and methods for repairing fallacious arguments in political discourse.
+    - title: Event Volunteer
+      institution: Journée Natural Language Argumentation, Nice, France
+      year: 2023
+      description:
+        - Assisted with event logistics and coordination
+    - title: Student Delegate
+      institution: Fondazione Collegio Universitario Einaudi, Turin, Italy
+      year: 2020 - 2021
+      description:
+        - Represented students in academic matters
+        - [ Collegio Einaudi ](https://www.collegioeinaudi.it)
 
 - title: Skills
   type: nested_list
   contents:
     - title: Deep Learning
       items:
-        PyTorch
-        HuggingFace
+        - PyTorch
+        - Transformers
+        - HuggingFace
+        - Fine-tuning
     - title: Software Development
       items:
-        Spring Boot, Kafka, Fluent Bit
-        ReactJS, PySpark, Docker, AWS
+        - Spring Boot
+        - Kafka
+        - Fluent Bit
+        - ReactJS
+        - PySpark
+        - Docker
+        - AWS
+        - CI/CD
     - title: Programming
       items:
-        Python, Java, C, R, JavaScript, SQL
+        - Python
+        - Java
+        - C
+        - R
+        - JavaScript
+        - SQL
+        - Bash
 
 - title: Other Interests
   type: list
