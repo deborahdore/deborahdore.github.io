@@ -76,57 +76,6 @@
       ]
     }
   ],
-  "teaching": [
-    {
-      "organization": "Centrale Méditerranée",
-      "location": "Nice, France",
-      "position": "Lecturer – Data Analysis and Visualization",
-      "url": "https://github.com/deborahdore/DataAnalysisAndVisualization",
-      "startDate": "2025-01",
-      "endDate": "2025-03",
-      "summary": "Delivered both lectures and lab sessions for the Data Analysis and Visualization course, covering topics such as exploratory data analysis, data cleaning, and interactive visualizations using Python."
-    },
-    {
-      "organization": "Université Côte d’Azur",
-      "location": "Sophia-Antipolis, France",
-      "position": "Teaching Assistant – Natural Language Processing (Traitement du Langage Naturel)",
-      "url": "",
-      "startDate": "2025-01",
-      "endDate": "2025-04",
-      "summary": "Led lab sessions for the NLP course, supporting both M2 MIAGE and L3 Informatique students with hands-on implementation of key NLP concepts and tools."
-    },
-    {
-      "organization": "Université Côte d’Azur",
-      "location": "Sophia-Antipolis, France",
-      "position": "Guest Lecturer – Neural Networks and Backpropagation",
-      "url": "",
-      "startDate": "2025-03",
-      "endDate": "2025-03",
-      "summary": "Delivered a theoretical lecture introducing the principles of neural networks and the backpropagation algorithm."
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Journée Natural Language Argumentation",
-      "location": "Nice, France",
-      "position": "Event Volunteer",
-      "url": "https://gdr-tal.ls2n.fr/event/journee-natural-language-argumentation-gdr-tal-gdr-radia/",
-      "startDate": "2023-11-27",
-      "endDate": "2023-11-27",
-      "summary": "Assisted in organizing a scientific event focused on natural language-based argument analysis, generation, and reasoning.",
-      "highlights": []
-    },
-    {
-      "organization": "Fondazione Collegio Universitario Einaudi",
-      "location": "Turin, Italy",
-      "position": "Student Delegate",
-      "url": "https://www.collegioeinaudi.it",
-      "startDate": "2020-01",
-      "endDate": "2021-08",
-      "summary": "Represented fellow students in academic and administrative matters within the college.",
-      "highlights": []
-    }
-  ],
   "education": [
     {
       "institution": "Université Côte d'Azur",
@@ -160,6 +109,42 @@
       "endDate": "2021-04",
       "score": "110/110",
       "courses": []
+    }
+  ],
+  "publications": [
+    {
+      "name": "Repairing Fallacious Argumentation in Political Debates",
+      "releaseDate": "2025-09",
+      "summary": "Proposed FallacyFix, a novel dataset and methodology for identifying and repairing fallacious argumentation in political discourse to enhance reasoning quality and combat misinformation."
+    }
+  ],
+  "teaching": [
+    {
+      "organization": "Centrale Méditerranée",
+      "location": "Nice, France",
+      "position": "Lecturer – Data Analysis and Visualization",
+      "url": "https://github.com/deborahdore/DataAnalysisAndVisualization",
+      "startDate": "2025-01",
+      "endDate": "2025-03",
+      "summary": "Delivered both lectures and lab sessions for the Data Analysis and Visualization course, covering topics such as exploratory data analysis, data cleaning, and interactive visualizations using Python."
+    },
+    {
+      "organization": "Université Côte d’Azur",
+      "location": "Sophia-Antipolis, France",
+      "position": "Teaching Assistant – Natural Language Processing (Traitement du Langage Naturel)",
+      "url": "",
+      "startDate": "2025-01",
+      "endDate": "2025-04",
+      "summary": "Led lab sessions for the NLP course, supporting both M2 MIAGE and L3 Informatique students with hands-on implementation of key NLP concepts and tools."
+    },
+    {
+      "organization": "Université Côte d’Azur",
+      "location": "Sophia-Antipolis, France",
+      "position": "Guest Lecturer – Neural Networks and Backpropagation",
+      "url": "",
+      "startDate": "2025-03",
+      "endDate": "2025-03",
+      "summary": "Delivered a theoretical lecture introducing the principles of neural networks and the backpropagation algorithm."
     }
   ],
   "scholarships": [
@@ -196,11 +181,26 @@
       "url": "https://www.credly.com/badges/cbe8a6cf-b73a-4744-9707-eeb7171f1ee5/public_url"
     }
   ],
-  "publications": [
+  "volunteer": [
     {
-      "name": "Repairing Fallacious Argumentation in Political Debates",
-      "releaseDate": "2025-09",
-      "summary": "Proposed FallacyFix, a novel dataset and methodology for identifying and repairing fallacious argumentation in political discourse to enhance reasoning quality and combat misinformation."
+      "organization": "Journée Natural Language Argumentation",
+      "location": "Nice, France",
+      "position": "Event Volunteer",
+      "url": "https://gdr-tal.ls2n.fr/event/journee-natural-language-argumentation-gdr-tal-gdr-radia/",
+      "startDate": "2023-11-27",
+      "endDate": "2023-11-27",
+      "summary": "Assisted in organizing a scientific event focused on natural language-based argument analysis, generation, and reasoning.",
+      "highlights": []
+    },
+    {
+      "organization": "Fondazione Collegio Universitario Einaudi",
+      "location": "Turin, Italy",
+      "position": "Student Delegate",
+      "url": "https://www.collegioeinaudi.it",
+      "startDate": "2020-01",
+      "endDate": "2021-08",
+      "summary": "Represented fellow students in academic and administrative matters within the college.",
+      "highlights": []
     }
   ],
   "skills": [
