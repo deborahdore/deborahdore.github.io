@@ -76,6 +76,35 @@
       ]
     }
   ],
+  "teaching": [
+    {
+      "organization": "Centrale Méditerranée",
+      "location": "Nice, France",
+      "position": "Lecturer – Data Analysis and Visualization",
+      "url": "https://github.com/deborahdore/DataAnalysisAndVisualization",
+      "startDate": "2025-01",
+      "endDate": "2025-03",
+      "summary": "Delivered both lectures and lab sessions for the Data Analysis and Visualization course, covering topics such as exploratory data analysis, data cleaning, and interactive visualizations using Python."
+    },
+    {
+      "organization": "Université Côte d’Azur",
+      "location": "Sophia-Antipolis, France",
+      "position": "Teaching Assistant – Natural Language Processing (Traitement du Langage Naturel)",
+      "url": "",
+      "startDate": "2025-01",
+      "endDate": "2025-04",
+      "summary": "Led lab sessions for the NLP course, supporting both M2 MIAGE and L3 Informatique students with hands-on implementation of key NLP concepts and tools."
+    },
+    {
+      "organization": "Université Côte d’Azur",
+      "location": "Sophia-Antipolis, France",
+      "position": "Guest Lecturer – Neural Networks and Backpropagation",
+      "url": "",
+      "startDate": "2025-03",
+      "endDate": "2025-03",
+      "summary": "Delivered a theoretical lecture introducing the principles of neural networks and the backpropagation algorithm."
+    }
+  ],
   "volunteer": [
     {
       "organization": "Journée Natural Language Argumentation",
