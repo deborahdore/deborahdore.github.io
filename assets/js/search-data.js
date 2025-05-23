@@ -42,6 +42,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-repairing-fallacious-argumentation-in-political-debates-pierpaolo-goffredo-deborah-dore-elena-cabrio-serena-villata-has-been-accepted-to-eca-2025-in-this-work-we-explore-how-to-identify-and-correct-fallacies-in-political-debates-using-computational-approaches-a-step-toward-improving-the-quality-of-public-debate",
           title: '📢 Our paper “Repairing Fallacious Argumentation in Political Debates” (Pierpaolo Goffredo, Deborah Dore,...',
           description: "",
+          section: "News",},{id: "news-our-paper-disputool-3-0-fallacy-detection-and-repairing-in-argumentative-political-debates-pierpaolo-goffredo-deborah-dore-elena-cabrio-serena-villata-has-been-accepted-to-acl-2025-s-demo-track-disputool-3-0-is-a-web-based-tool-that-detects-and-repairs-fallacious-arguments-in-political-debates-built-on-a-collection-of-u-s-presidential-debates-from-1960-to-2020-disputool-goes-beyond-detection-by-suggesting-revised-fallacy-free-versions-of-flawed-arguments",
+          title: '📢 Our paper “DISPUTool 3.0: Fallacy Detection and Repairing in Argumentative Political Debates”...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
