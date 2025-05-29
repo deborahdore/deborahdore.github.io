@@ -45,8 +45,8 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-disputool-3-0-fallacy-detection-and-repairing-in-argumentative-political-debates-pierpaolo-goffredo-deborah-dore-elena-cabrio-serena-villata-has-been-accepted-to-acl-2025-s-demo-track-disputool-3-0-is-a-web-based-tool-that-detects-and-repairs-fallacious-arguments-in-political-debates-built-on-a-collection-of-u-s-presidential-debates-from-1960-to-2020-disputool-goes-beyond-detection-by-suggesting-revised-fallacy-free-versions-of-flawed-arguments",
           title: '📢 Our paper “DISPUTool 3.0: Fallacy Detection and Repairing in Argumentative Political Debates”...',
           description: "",
-          section: "News",},{id: "news-my-master-s-thesis-leveraging-graph-structural-knowledge-to-improve-argument-relation-prediction-in-political-debates-deborah-dore-stefano-faralli-serena-villata-has-been-accepted-for-presentation-at-the-argument-mining-workshop-at-acl-2025-in-this-research-we-investigate-how-integrating-knowledge-graph-embedding-models-with-large-language-models-can-advance-the-state-of-the-art-in-predicting-argumentative-relations-within-us-political-debates",
-          title: '📢 My Master’s thesis, “Leveraging Graph Structural Knowledge to Improve Argument Relation Prediction...',
+          section: "News",},{id: "news-my-master-s-thesis-work-leveraging-graph-structural-knowledge-to-improve-argument-relation-prediction-in-political-debates-deborah-dore-stefano-faralli-serena-villata-has-been-accepted-at-the-argument-mining-workshop-at-acl-2025-in-this-research-we-investigate-how-integrating-knowledge-graph-embedding-models-with-large-language-models-can-advance-the-state-of-the-art-in-predicting-argumentative-relations-within-us-political-debates",
+          title: '📢 My Master’s thesis work, “Leveraging Graph Structural Knowledge to Improve Argument Relation...',
           description: "",
           section: "News",},{
         id: 'social-email',
