@@ -49,10 +49,7 @@
 - title: Publications
   type: list
   contents:
-    - <strong>Repairing Fallacious Argumentation in Political Debates</strong> (2025) – Introduces a dataset and methods for repairing fallacious arguments in political discourse.
-    - <strong>DISPUTool 3.0: Fallacy Detection and Repairing in Argumentative Political Debates</strong> (2025) – A web-based application to analyze political arguments.
-    - <strong>Leveraging Graph Structural Knowledge to Improve Argument Relation Prediction in Political Debates</strong> (2025) – Combining KGE and LLMs to improve argument relation prediction in political debates.
-
+    - todo
 - title: Teaching
   type: time_table
   contents:

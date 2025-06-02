@@ -116,6 +116,16 @@
       "name": "Repairing Fallacious Argumentation in Political Debates",
       "releaseDate": "2025-09",
       "summary": "Proposed FallacyFix, a novel dataset and methodology for identifying and repairing fallacious argumentation in political discourse to enhance reasoning quality and combat misinformation."
+    },
+    {
+      "name": "DISPUTool 3.0: Fallacy Detection and Repairing in Argumentative Political Debates",
+      "releaseDate": "2025-07",
+      "summary": "A web-based application designed to analyze arguments—identifying claims, premises, and their relationships (such as support and attack)—as well as detecting fallacies and suggesting repairs."
+    },
+    {
+      "name": "Leveraging Graph Structural Knowledge to Improve Argument Relation Prediction in Political Debates",
+      "releaseDate": "2025-07",
+      "summary": "Combining Knowledge Graph Embedding Models with Language Models to improve the task of argument relation classification."
     }
   ],
   "teaching": [
