@@ -48,6 +48,9 @@ ninja.data = [{
           section: "News",},{id: "news-my-master-s-thesis-work-leveraging-graph-structural-knowledge-to-improve-argument-relation-prediction-in-political-debates-deborah-dore-stefano-faralli-serena-villata-has-been-accepted-at-the-argument-mining-workshop-at-acl-2025-in-this-research-we-investigate-how-integrating-knowledge-graph-embedding-models-with-large-language-models-can-advance-the-state-of-the-art-in-predicting-argumentative-relations-within-us-political-debates",
           title: '📢 My Master’s thesis work, “Leveraging Graph Structural Knowledge to Improve Argument Relation...',
           description: "",
+          section: "News",},{id: "news-exciting-news-i-ve-been-selected-as-one-of-the-3ia-phd-seminars-organizers-for-the-2025-2026-academic-year-alongside-two-fellow-phds-i-ll-be-coordinating-seminars-and-inviting-speakers-on-topics-in-artificial-intelligence-i-m-looking-forward-to-this-new-adventure-and-the-opportunity-to-contribute-to-the-3ia-community",
+          title: '🎉 Exciting news! I’ve been selected as one of the 3IA PhD Seminars...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
