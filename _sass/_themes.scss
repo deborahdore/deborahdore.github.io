@@ -159,3 +159,6 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+strong, b {
+  color: var(--global-theme-color);
+}
