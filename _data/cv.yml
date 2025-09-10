@@ -101,7 +101,17 @@
 - title: Volunteer
   type: time_table
   contents:
-    - title: Event Volunteer
+    - title: Seminar Organizer
+      institution: 3IA Cote D'Azur
+      year: 2025
+      description:
+        3IA Seminar Organizer for the 3IA Community in Sophia Antipolis
+    - title: Volunteer
+      institution: ACL 2025, Vienna, Austria
+      year: 2025
+      description:
+        Assisted with event logistics and coordination
+    - title: Volunteer
       institution: Journée Natural Language Argumentation, Nice, France
       year: 2023
       description:
