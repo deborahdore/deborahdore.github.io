@@ -130,6 +130,24 @@
   ],
   "teaching": [
     {
+      "organization": "Université Côte d’Azur",
+      "location": "Sophia-Antipolis, France",
+      "position": "Teaching Assistant – NoSQL Databases",
+      "url": "",
+      "startDate": "2026-02",
+      "endDate": "2026-04",
+      "summary": "Led lab sessions for the NoSQL Databases course."
+    },
+    {
+      "organization": "Université Côte d’Azur",
+      "location": "Sophia-Antipolis, France",
+      "position": "Teaching Assistant – Advanced Natural Language Processing",
+      "url": "",
+      "startDate": "2026-02",
+      "endDate": "2026-04",
+      "summary": "Led lab sessions for the Advanced Natural Language Processing course."
+    },
+    {
       "organization": "Centrale Méditerranée",
       "location": "Nice, France",
       "position": "Lecturer – Data Analysis and Visualization",
@@ -158,6 +176,12 @@
     }
   ],
   "scholarships": [
+    {
+      "title": "EFELIA Mobility Scholarship",
+      "date": "2025-11",
+      "awarder": "Université Côte d'Azur",
+      "summary": "Awarded to outstanding students for mobility in international research environments."
+    },
     {
       "title": "Master's Thesis Abroad",
       "date": "2023-09",
@@ -192,6 +216,16 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "3IA Seminar Organizer",
+      "location": "Nice, France",
+      "position": "Organizer",
+      "url": "https://3ia.univ-cotedazur.eu/research/doctoral-postdoctoral-seminar-1",
+      "startDate": "2025-09-01",
+      "endDate": "2026-08-31",
+      "summary": "Organizing Seminar for PhDs and PostDocs of the 3IA community.",
+      "highlights": []
+    },
     {
       "organization": "Journée Natural Language Argumentation",
       "location": "Nice, France",
