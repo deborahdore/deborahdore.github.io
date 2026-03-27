@@ -4,6 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - deborahdore/RooseBERT
+  - deborahdore/ElecDeb60to20
   - deborahdore/political-debates-graph-analysis
   - deborahdore/multi-source-lms-for-audio
   - deborahdore/cross-lingual-embeddings
