@@ -51,6 +51,9 @@ ninja.data = [{
           section: "News",},{id: "news-exciting-news-i-ve-been-selected-as-one-of-the-3ia-phd-seminars-organizers-for-the-2025-2026-academic-year-alongside-two-fellow-phds-i-ll-be-coordinating-seminars-and-inviting-speakers-on-topics-in-artificial-intelligence-i-m-looking-forward-to-this-new-adventure-and-the-opportunity-to-contribute-to-the-3ia-community",
           title: '🎉 Exciting news! I’ve been selected as one of the 3IA PhD Seminars...',
           description: "",
+          section: "News",},{id: "news-i-won-the-2026-efelia-scholarship-for-international-mobility-this-grant-will-allow-me-to-visit-research-labs-abroad",
+          title: '🎉 I won the 2026 EFELIA Scholarship for International Mobility! This grant will...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
