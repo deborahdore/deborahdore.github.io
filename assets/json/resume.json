@@ -3,7 +3,7 @@
     "name": "Deborah Dore",
     "label": "PhD Student in Natural Language Processing",
     "image": "",
-    "email": "deborah.dore@inria.fr",
+    "email": "deborah.dore@outlook.com",
     "phone": "+33 7 44 40 14 36",
     "url": "https://deborahdore.github.io",
     "summary": "PhD candidate at CNRS focusing on argument mining in political debates.",
@@ -112,6 +112,11 @@
     }
   ],
   "publications": [
+    {
+      "name": "RooseBERT: A New Deal For Political Language Modelling",
+      "releaseDate": "2025-09",
+      "summary": "A Pre-Trained Language Model for Political Debates in English."
+    },
     {
       "name": "Repairing Fallacious Argumentation in Political Debates",
       "releaseDate": "2025-09",
