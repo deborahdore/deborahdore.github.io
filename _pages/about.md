@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in the <a href='https://www.inria.fr/fr/marianne'>Marianne TEAM</a>. **Looking for an internship in AI/NLP!**
+subtitle: PhD Student in the <a href='https://www.inria.fr/fr/marianne'>Marianne TEAM</a>. <strong>Looking for an internship in AI/NLP!</strong>
 
 profile:
   align: right
