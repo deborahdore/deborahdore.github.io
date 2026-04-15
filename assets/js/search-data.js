@@ -47,6 +47,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-won-the-2026-efelia-scholarship-for-international-mobility-this-grant-will-allow-me-to-visit-research-labs-abroad",
           title: '🎉 I won the 2026 EFELIA Scholarship for International Mobility! This grant will...',
           description: "",
+          section: "News",},{id: "news-️-back-from-alps-2026-an-intensive-advanced-language-processing-school-in-the-french-alps-a-great-experience-that-will-definitely-help-me-improve-as-a-researcher",
+          title: '🏔️ Back from ALPS 2026, an intensive advanced language processing school in the...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
