@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in the <a href='https://www.inria.fr/fr/marianne'>Marianne TEAM</a>. <strong>Looking for an internship in AI/NLP!</strong>
+subtitle: PhD Student in the <a href='https://www.inria.fr/fr/marianne'>Marianne TEAM</a>. <strong>Looking for a PhD internship in AI/NLP!</strong>
 
 profile:
   align: right
@@ -13,7 +13,7 @@ profile:
     <p>Université Côte d'Azur</p>
     <p> 06410 Biot </p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:

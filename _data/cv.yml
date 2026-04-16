@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Deborah Dore
-    - name: Date of Birth
-      value: 10th January 1999
     - name: Languages
       value: Italian, English, French
 
@@ -49,7 +47,10 @@
 - title: Publications
   type: list
   contents:
-    - todo
+    - "D. Dore, E. Cabrio, S. Villata. <em>RooseBERT: A New Deal For Political Language Modelling</em>. arXiv, 2025."
+    - "D. Dore, S. Faralli, S. Villata. <em>Leveraging Graph Structural Knowledge to Improve Argument Relation Prediction in Political Debates</em>. ArgMining @ ACL 2025."
+    - "P. Goffredo, D. Dore, E. Cabrio, S. Villata. <em>DISPUTool 3.0: Fallacy Detection and Repairing in Argumentative Political Debates</em>. ACL 2025 (Demo Track)."
+    - "P. Goffredo, D. Dore, E. Cabrio, S. Villata. <em>Repairing Fallacious Argumentation in Political Debates</em>. ECA 2025."
 - title: Teaching
   type: time_table
   contents:
