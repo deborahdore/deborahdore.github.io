@@ -51,6 +51,13 @@ ninja.data = [{
           title: '🏔️ Back from ALPS 2026, an intensive advanced language processing school in the...',
           description: "",
           section: "News",},{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/414/7929", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
