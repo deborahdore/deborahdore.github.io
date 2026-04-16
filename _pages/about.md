@@ -7,7 +7,7 @@ subtitle: PhD Student in the <a href='https://www.inria.fr/fr/marianne'>Marianne
 profile:
   align: right
   image: myphoto.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>E416 - Bâtiment E</p>
     <p>Université Côte d'Azur</p>
