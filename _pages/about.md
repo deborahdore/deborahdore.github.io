@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in the <a href='https://www.inria.fr/fr/marianne'>Marianne TEAM</a>. <strong>Looking for a PhD internship in AI/NLP!</strong>
+subtitle: PhD Student in the <a href='https://www.inria.fr/fr/marianne'>Marianne TEAM</a>.
 
 profile:
   align: right
   image: myphoto.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>E416 - Bâtiment E</p>
-    <p>Université Côte d'Azur</p>
-    <p> 06410 Biot </p>
+    <p>Centre Inria d'Université Côte d'Azur</p>
+    <p> 06560 Valbonne </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -33,3 +32,5 @@ expose logical fallacies and propaganda, fostering more informed public discours
 
 My research applies Argument Mining to political debates, where speakers build complex argumentative structures. Mapping
 these interactions can support voters in making better-informed decisions.
+
+<strong>Looking for a PhD internship in AI/NLP!</strong>
