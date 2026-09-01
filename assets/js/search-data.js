@@ -56,6 +56,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-multimodal-stance-detection-in-controversial-tweets-deborah-dore-diego-blassio-elena-cabrio-serena-villata-has-been-accepted-to-comma-2026-in-this-work-we-explore-how-images-can-help-or-not-multimodal-models-better-understand-the-stance-of-a-tweet-towards-a-given-topic",
           title: '📢 Our paper “Multimodal Stance Detection in Controversial Tweets” (Deborah Dore, Diego Blassio,...',
           description: "",
+          section: "News",},{id: "news-our-paper-roosebert-a-new-deal-for-political-language-modelling-deborah-dore-elena-cabrio-serena-villata-has-been-accepted-at-wi-iat-2026-we-re-releasing-roosebert-a-pre-trained-language-model-built-for-political-debates-and-discourse-designed-to-help-researchers-navigate-the-specialized-language-of-politics",
+          title: '📢 Our paper “RooseBERT: A New Deal For Political Language Modelling” (Deborah Dore,...',
+          description: "",
           section: "News",},{
         id: 'social-dblp',
         title: 'DBLP',
