@@ -1,10 +1,13 @@
 @inproceedings{dore2026fallacyrag,
-    author = {Deborah Dore and G. Damo and Elena Cabrio and Serena Villata},
+    author = {Deborah Dore and Greta Damo and Elena Cabrio and Serena Villata},
     title = {Retrieving Relations, Detecting Fallacies: A {RAG} Approach To Political Debate Analysis},
     year = {2026},
     selected = {true},
     note = {Under review at EACL 2027},
     code = {https://github.com/deborahdore/FallacyRAG},
+    preview = {fallacyrag.webp},
+    arxiv = {2608.27471},
+    abstract = {Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political debates, where public opinion is shaped. Spotting a fallacious argument requires contextual knowledge beyond its pure surface text. This entails world knowledge pertaining to the subject matter under discussion, as well as knowledge of the relationships that exist between arguments within the argumentative discourse. Prior work on fallacy analysis has shown that argumentative discourse structure can beneficially improve classification performance. However, such structure is typically encoded only as static classifier features, limiting its flexibility. Building on this intuition while addressing this limitation, we introduce a guided retrieval-augmented methodology for fallacy detection and classification that leverages argumentative relations of support and attack to dynamically steer the extraction of relevant documents. We evaluate our approach on the ElecDeb60to20 benchmark across 42 retrieval configurations and 14 models, performing retrieval over a 15GB knowledge base of collected political-related documents. Our approach improves macro-F1 up to 0.864 for fallacy detection and up to 0.725 for classification over non-retrieval baselines. These results show that incorporating external knowledge significantly enhances fallacy detection and classification when retrieval is argumentatively guided.},
 }
 
 @inproceedings{dore2025roosebert,
@@ -28,6 +31,8 @@
     booktitle = {11th International Conference on Computational Models of Argument (COMMA 2026)},
     location = {Barcelona, Spain},
     year = {2026},
+    pages = {101--112},
+    doi = {10.3233/FAIA260804},
     code = {https://github.com/DBlassio/multimodal-argmining},
     abstract = {Multimodal Argument Mining aims at combining different modalities (i.e., text, image, video, audio) to achieve a better understanding of verbal and non-verbal argumentation. Despite significant progress in extracting and analysing argumentation structures from text, few approaches have addressed the challenge of combining different modalities in this analysis. This remains a highly unexplored but urgent topic, given the increasing impact of multimedia data in society. In this paper, we tackle this question by proposing a multimodal approach to the stance detection task. Starting with the ImageArg-2023 shared task dataset, which comprises tweets paired with images on the controversial topics of abortion and gun control, we propose the following contributions: \textit{i)} we present an updated version of the ImageArg dataset where we fixed some issues ensuring a high Inter-Annotator Agreement, and \textit{ii)} we propose a modular architecture for multimodal stance detection which outperforms SoA approaches on this task. In addition, we quantify and discuss how each modality contributes to the classification task. This allows us to gain a better understanding of the role that each modality plays in multimodal AM.},
     preview = {controversial.png},

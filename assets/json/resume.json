@@ -83,7 +83,8 @@
       "name": "Retrieving Relations, Detecting Fallacies: A RAG Approach To Political Debate Analysis",
       "authors": "<b>D. Dore</b>, G. Damo, E. Cabrio, S. Villata",
       "publisher": "Under review @ EACL 2027",
-      "releaseDate": "2026"
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2608.27471"
     },
     {
       "name": "RooseBERT: A New Deal For Political Language Modelling",
@@ -91,6 +92,19 @@
       "publisher": "WI-IAT 2026",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2508.03250"
+    },
+    {
+      "name": "Multimodal Stance Detection in Controversial Tweets",
+      "authors": "<b>D. Dore</b>, D. Blassio, E. Cabrio, S. Villata",
+      "publisher": "COMMA 2026",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.3233/FAIA260804"
+    },
+    {
+      "name": "Repairing Fallacious Argumentation in Political Debates",
+      "authors": "P. Goffredo, <b>D. Dore</b>, E. Cabrio, S. Villata",
+      "publisher": "ECA 2025",
+      "releaseDate": "2025"
     },
     {
       "name": "DISPUTool 3.0: Fallacy Detection and Repairing in Argumentative Political Debates",
@@ -101,34 +115,10 @@
     },
     {
       "name": "Leveraging Graph Structural Knowledge to Improve Argument Relation Prediction in Political Debates",
-      "authors": "<b>D. Dore</b>, Stefano Faralli, S. Villata",
+      "authors": "<b>D. Dore</b>, S. Faralli, S. Villata",
       "publisher": "ArgMining@ACL 2025",
       "releaseDate": "2025",
       "url": "https://doi.org/10.18653/v1/2025.argmining-1.7"
-    }
-  ],
-  "projects": [
-    {
-      "name": "FallacyRAG",
-      "summary": "Retrieval-augmented fallacy detection and classification in political debates that guides the retrieval strategy with argumentative relations (under review at EACL 2027).",
-      "links": [
-        { "name": "GitHub", "url": "https://github.com/deborahdore/FallacyRAG" }
-      ]
-    },
-    {
-      "name": "RooseBERT",
-      "summary": "Domain-adapted language model for political debates, pretrained on 11GB of debates with multi-GPU training on the Jean Zay HPC cluster. Released four model variants, a sentence encoder, and the RooseDebates corpus on Hugging Face, with 300+ monthly downloads (WI-IAT 2026).",
-      "links": [
-        { "name": "GitHub", "url": "https://github.com/deborahdore/RooseBERT" },
-        { "name": "Hugging Face", "url": "https://huggingface.co/collections/ddore14/roosebert" }
-      ]
-    },
-    {
-      "name": "DispuTOOL",
-      "summary": "Transforming my PhD project into a web app to ground my research contributions in real-world usability.",
-      "links": [
-        { "name": "Demo", "url": "https://3ia-demos.inria.fr/en/demos/disputool/" }
-      ]
     }
   ],
   "work": [

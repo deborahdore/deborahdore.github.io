@@ -90,7 +90,6 @@ layout: default
           <div class="card mt-3 p-3">
             {% case data[0] %}
               {% when 'work' %}{% assign section_title = 'Experience' %}
-              {% when 'publications' %}{% assign section_title = 'Selected Publications' %}
               {% when 'projects' %}{% assign section_title = 'Selected Projects' %}
               {% when 'volunteer' %}{% assign section_title = 'Service &amp; Outreach' %}
               {% else %}{% assign section_title = data[0] | capitalize %}
