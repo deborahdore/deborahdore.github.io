@@ -1,28 +1,29 @@
+{% assign basics = data[1] %}
 <table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
-  {% assign skip_basics = 'image,profiles,location' | split: ',' %}
-  {% for content in data[1] %}
-    {%
-      if (content[1] == "") or (skip_basics contains
-      content[0])
-    %}
-      {% continue %}
-    {% endif %}
-
+  <tr>
+    <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
+    <td class="p-1 pl-2 font-weight-light text">{{ basics.name }}</td>
+  </tr>
+  <tr>
+    <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
+    <td class="p-1 pl-2 font-weight-light text"><a href="mailto:{{ basics.email }}">{{ basics.email }}</a></td>
+  </tr>
+  <tr>
+    <td class="p-1 pr-2 font-weight-bold"><b>Profiles</b></td>
+    <td class="p-1 pl-2 font-weight-light text">
+      {% for profile in basics.profiles %}
+        <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">{{ profile.network }}</a>{% unless forloop.last %} · {% endunless %}
+      {% endfor %}
+    </td>
+  </tr>
+  <tr>
+    <td class="p-1 pr-2 font-weight-bold"><b>About</b></td>
+    <td class="p-1 pl-2 font-weight-light text">{{ basics.summary }}</td>
+  </tr>
+  {% if basics.availability %}
     <tr>
-      <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
-      </td>
-      <td class="p-1 pl-2 font-weight-light text">
-        {% if content[0] == 'url' %}
-          <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
-        {% elsif content[0] == 'email' %}
-          <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
-        {% elsif content[0] == 'phone' %}
-          <a href="tel:{{ content[1] }}">{{ content[1] }}</a>
-        {% else %}
-          {{ content[1] }}
-        {% endif %}
-      </td>
+      <td class="p-1 pr-2 font-weight-bold"><b>Availability</b></td>
+      <td class="p-1 pl-2 font-weight-light text"><b>{{ basics.availability }}</b></td>
     </tr>
-  {% endfor %}
+  {% endif %}
 </table>

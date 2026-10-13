@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Deborah Dore",
-    "label": "PhD Student in Natural Language Processing",
+    "label": "PhD candidate in NLP",
     "image": "",
     "email": "deborah.dore@outlook.com",
-    "phone": "+33 7 44 40 14 36",
     "url": "https://deborahdore.github.io",
-    "summary": "PhD candidate at CNRS focusing on argument mining in political debates.",
+    "summary": "PhD candidate in NLP. Working on grounding language models in structured argumentative knowledge, from domain-adapted pre-training to argument-guided retrieval, so their reasoning becomes more reliable.",
+    "availability": "Available for a 3-6 months internship starting May–July 2027.",
     "location": {
       "address": "",
       "postalCode": "06600",
@@ -16,201 +16,195 @@
     },
     "profiles": [
       {
+        "network": "GitHub",
+        "username": "deborahdore",
+        "url": "https://github.com/deborahdore"
+      },
+      {
         "network": "LinkedIn",
         "username": "deborah-dore",
         "url": "https://www.linkedin.com/in/deborah-dore/"
       },
       {
-        "network": "GitHub",
-        "username": "deborahdore",
-        "url": "https://github.com/deborahdore"
+        "network": "Google Scholar",
+        "username": "ZLle29QAAAAJ",
+        "url": "https://scholar.google.com/citations?user=ZLle29QAAAAJ"
       }
     ]
   },
-  "work": [
-    {
-      "name": "CNRS",
-      "position": "PhD Student",
-      "url": "https://3ia.univ-cotedazur.eu/research/3ia-students/phd-students-axis-1",
-      "startDate": "2024-11",
-      "endDate": "2027-10",
-      "summary": "Conducting PhD research in NLP, focusing on argument mining in political debates under the supervision of Serena Villata and Elena Cabrio.",
-      "highlights": [
-        "Argument Mining and Discourse Analysis",
-        "Fallacy Detection and Repair in Political Discourse"
-      ]
-    },
-    {
-      "name": "CNRS",
-      "position": "Research Intern",
-      "url": "https://www.cnrs.fr",
-      "startDate": "2023-09",
-      "endDate": "2024-02",
-      "summary": "Internship in argument mining and knowledge graph integration in political debate analysis, supervised by Serena Villata and Stefano Faralli.",
-      "highlights": [
-        "Argument Structure Extraction",
-        "Knowledge Graph Construction",
-        "Political Text Analysis"
-      ]
-    },
-    {
-      "name": "Certimeter Group",
-      "position": "Software Engineer",
-      "startDate": "2021-01",
-      "endDate": "2021-08",
-      "summary": "Worked on full-stack application development using Spring Boot for backend services and ReactJS for frontend interfaces.",
-      "highlights": [
-        "Microservices with Spring Boot",
-        "Frontend Development with ReactJS"
-      ]
-    },
-    {
-      "name": "Certimeter Group",
-      "position": "Software Engineer Intern",
-      "startDate": "2020-09",
-      "endDate": "2021-01",
-      "summary": "Contributed to full-stack projects, assisting in developing scalable web applications using modern Java and JavaScript frameworks.",
-      "highlights": [
-        "Agile Development",
-        "Team Collaboration"
-      ]
-    }
-  ],
   "education": [
     {
-      "institution": "Université Côte d'Azur",
+      "institution": "Université Côte d'Azur, CNRS, INRIA, I3S",
       "location": "Nice, France",
       "url": "https://univ-cotedazur.eu",
-      "area": "Natural Language Processing",
+      "area": "Artificial Intelligence",
       "studyType": "PhD",
-      "startDate": "2024-01",
-      "endDate": "2027-10",
-      "score": "",
-      "courses": []
+      "startDate": "2024-11",
+      "endDate": "",
+      "highlights": [
+        "Research project: Argument Mining in Political Debates",
+        "Advisors: S. Villata, E. Cabrio",
+        "Keywords: NLP | Argument Mining | Political Debates",
+        "Research scholarship: EFELIA scholarship for international mobility"
+      ]
     },
     {
       "institution": "Sapienza Università di Roma",
       "location": "Rome, Italy",
       "url": "https://www.uniroma1.it/it/pagina-strutturale/home",
-      "area": "Deep Learning & Applied Artificial Intelligence",
-      "studyType": "Master's Degree",
+      "area": "Computer Science",
+      "studyType": "Master",
       "startDate": "2021-09",
       "endDate": "2024-05",
-      "score": "110/110 cum laude",
-      "courses": []
+      "highlights": [
+        "Final evaluation: 110/110 cum laude, GPA: 4.0",
+        "Thesis project: Argument Representation using Knowledge Graphs",
+        "Erasmus+ scholarship: 6-month exchange at Universidade do Porto, Portugal",
+        "Research scholarship: 6-month research visit at CNRS, France"
+      ]
     },
     {
       "institution": "Università degli Studi di Torino",
       "location": "Turin, Italy",
       "url": "https://www.unito.it",
       "area": "Computer Science",
-      "studyType": "Bachelor's Degree",
+      "studyType": "Bachelor",
       "startDate": "2017-09",
       "endDate": "2021-04",
-      "score": "110/110",
-      "courses": []
+      "highlights": [
+        "Final evaluation: 110/110, GPA: 3.7",
+        "Thesis project: Full-stack access control application with Spring Boot and ReactJS",
+        "Erasmus+ scholarship: 6-month exchange at Università Tecnica din Cluj-Napoca, Romania"
+      ]
     }
   ],
   "publications": [
     {
-      "name": "RooseBERT: A New Deal For Political Language Modelling",
-      "releaseDate": "2025-09",
-      "summary": "A Pre-Trained Language Model for Political Debates in English."
+      "name": "Retrieving Relations, Detecting Fallacies: A RAG Approach To Political Debate Analysis",
+      "authors": "<b>D. Dore</b>, G. Damo, E. Cabrio, S. Villata",
+      "publisher": "Under review @ EACL 2027",
+      "releaseDate": "2026"
     },
     {
-      "name": "Repairing Fallacious Argumentation in Political Debates",
-      "releaseDate": "2025-09",
-      "summary": "Proposed FallacyFix, a novel dataset and methodology for identifying and repairing fallacious argumentation in political discourse to enhance reasoning quality and combat misinformation."
+      "name": "RooseBERT: A New Deal For Political Language Modelling",
+      "authors": "<b>D. Dore</b>, E. Cabrio, S. Villata",
+      "publisher": "WI-IAT 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2508.03250"
     },
     {
       "name": "DISPUTool 3.0: Fallacy Detection and Repairing in Argumentative Political Debates",
-      "releaseDate": "2025-07",
-      "summary": "A web-based application designed to analyze arguments—identifying claims, premises, and their relationships (such as support and attack)—as well as detecting fallacies and suggesting repairs."
+      "authors": "P. Goffredo, <b>D. Dore</b>, E. Cabrio, S. Villata",
+      "publisher": "ACL 2025",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.18653/v1/2025.acl-demo.45"
     },
     {
       "name": "Leveraging Graph Structural Knowledge to Improve Argument Relation Prediction in Political Debates",
-      "releaseDate": "2025-07",
-      "summary": "Combining Knowledge Graph Embedding Models with Language Models to improve the task of argument relation classification."
+      "authors": "<b>D. Dore</b>, Stefano Faralli, S. Villata",
+      "publisher": "ArgMining@ACL 2025",
+      "releaseDate": "2025",
+      "url": "https://doi.org/10.18653/v1/2025.argmining-1.7"
     }
   ],
-  "teaching": [
+  "projects": [
     {
-      "organization": "Université Côte d’Azur",
-      "location": "Sophia-Antipolis, France",
-      "position": "Teaching Assistant – NoSQL Databases",
-      "url": "",
-      "startDate": "2026-02",
-      "endDate": "2026-04",
-      "summary": "Led lab sessions for the NoSQL Databases course."
+      "name": "FallacyRAG",
+      "summary": "Retrieval-augmented fallacy detection and classification in political debates that guides the retrieval strategy with argumentative relations (under review at EACL 2027).",
+      "links": [
+        { "name": "GitHub", "url": "https://github.com/deborahdore/FallacyRAG" }
+      ]
     },
     {
-      "organization": "Université Côte d’Azur",
-      "location": "Sophia-Antipolis, France",
-      "position": "Teaching Assistant – Advanced Natural Language Processing",
-      "url": "",
-      "startDate": "2026-02",
-      "endDate": "2026-04",
-      "summary": "Led lab sessions for the Advanced Natural Language Processing course."
+      "name": "RooseBERT",
+      "summary": "Domain-adapted language model for political debates, pretrained on 11GB of debates with multi-GPU training on the Jean Zay HPC cluster. Released four model variants, a sentence encoder, and the RooseDebates corpus on Hugging Face, with 300+ monthly downloads (WI-IAT 2026).",
+      "links": [
+        { "name": "GitHub", "url": "https://github.com/deborahdore/RooseBERT" },
+        { "name": "Hugging Face", "url": "https://huggingface.co/collections/ddore14/roosebert" }
+      ]
     },
     {
-      "organization": "Centrale Méditerranée",
+      "name": "DispuTOOL",
+      "summary": "Transforming my PhD project into a web app to ground my research contributions in real-world usability.",
+      "links": [
+        { "name": "Demo", "url": "https://3ia-demos.inria.fr/en/demos/disputool/" }
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Université Côte d'Azur, Centrale Méditerranée",
+      "position": "Teaching Assistant",
+      "location": "Sophia Antipolis, France",
+      "startDate": "2024-11",
+      "endDate": "",
+      "highlights": [
+        "Designed and delivered university courses in NLP and Data Analysis for 100+ students.",
+        "Built hands-on labs and assessments covering NLP pipelines, NoSQL databases, and data visualization."
+      ]
+    },
+    {
+      "name": "CNRS, WIMMICS Team",
+      "position": "Research Intern",
+      "url": "https://www.cnrs.fr",
+      "location": "Sophia Antipolis, France",
+      "startDate": "2023-09",
+      "endDate": "2024-02",
+      "highlights": [
+        "Fine-tuned transformer-based models for argument classification on political debate corpora, pushing state-of-the-art performance by +4% F1.",
+        "Built and evaluated NLP pipelines for relation extraction using Knowledge Graphs and LLMs."
+      ]
+    },
+    {
+      "name": "Certimeter Group (Lutech), client: Blue Reply",
+      "position": "Software Developer",
+      "location": "Turin, Italy",
+      "startDate": "2020-09",
+      "endDate": "2021-08",
+      "highlights": [
+        "Designed and deployed 50+ production microservices in Spring Boot and Docker, migrating legacy monolithic systems as part of a large-scale enterprise modernization initiative.",
+        "Built real-time data ingestion pipelines using Apache Kafka at scale.",
+        "Developed full-stack applications with Spring Boot and ReactJS (internship, Sep 2020 – Jan 2021)."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "ACL, AAAI, EACL, ESWC, ISWC, IJCAI",
+      "position": "Reviewer"
+    },
+    {
+      "organization": "3IA Côte d'Azur - Interdisciplinary Institute for Artificial Intelligence",
       "location": "Nice, France",
-      "position": "Lecturer – Data Analysis and Visualization",
-      "url": "https://github.com/deborahdore/DataAnalysisAndVisualization",
-      "startDate": "2025-01",
-      "endDate": "2025-03",
-      "summary": "Delivered both lectures and lab sessions for the Data Analysis and Visualization course, covering topics such as exploratory data analysis, data cleaning, and interactive visualizations using Python."
+      "position": "Seminar Organizer",
+      "url": "https://3ia.univ-cotedazur.eu/research/doctoral-postdoctoral-seminar-1",
+      "startDate": "2025-08",
+      "endDate": "2026-09"
     },
     {
-      "organization": "Université Côte d’Azur",
-      "location": "Sophia-Antipolis, France",
-      "position": "Teaching Assistant – Natural Language Processing (Traitement du Langage Naturel)",
-      "url": "",
-      "startDate": "2025-01",
-      "endDate": "2025-04",
-      "summary": "Led lab sessions for the NLP course, supporting both M2 MIAGE and L3 Informatique students with hands-on implementation of key NLP concepts and tools."
+      "organization": "Association for Computational Linguistics (ACL 2025)",
+      "location": "Vienna, Austria",
+      "position": "Volunteer",
+      "startDate": "2025-07",
+      "endDate": "2025-08"
     },
     {
-      "organization": "Université Côte d’Azur",
-      "location": "Sophia-Antipolis, France",
-      "position": "Guest Lecturer – Neural Networks and Backpropagation",
-      "url": "",
-      "startDate": "2025-03",
-      "endDate": "2025-03",
-      "summary": "Delivered a theoretical lecture introducing the principles of neural networks and the backpropagation algorithm."
+      "organization": "Fondazione Collegio Universitario Einaudi",
+      "location": "Turin, Italy",
+      "position": "Student Representative",
+      "url": "https://www.collegioeinaudi.it",
+      "startDate": "2020-09",
+      "endDate": "2021-08"
     }
   ],
-  "scholarships": [
-    {
-      "title": "EFELIA Mobility Scholarship",
-      "date": "2025-11",
-      "awarder": "Université Côte d'Azur",
-      "summary": "Awarded to outstanding students for mobility in international research environments."
-    },
-    {
-      "title": "Master's Thesis Abroad",
-      "date": "2023-09",
-      "awarder": "Sapienza Università di Roma",
-      "summary": "Awarded to outstanding students for thesis development in international research environments."
-    },
-    {
-      "title": "Student Collaboration Scholarship",
-      "date": "2023-05",
-      "awarder": "Sapienza Università di Roma",
-      "summary": "Participation in institutional support activities."
-    },
-    {
-      "title": "Erasmus+ Scholarship",
-      "date": "2022-01",
-      "awarder": "Sapienza Università di Roma",
-      "summary": "Completed an exchange semester at Universidade do Porto, Portugal."
-    },
-    {
-      "title": "Erasmus+ Scholarship",
-      "date": "2022-01",
-      "awarder": "Università degli Studi di Torino",
-      "summary": "Completed an exchange semester at Universitatea Tehnică din Cluj-Napoca, Romania."
-    }
+  "skills": [
+    { "name": "Languages & Programming", "keywords": ["Python", "Java", "JavaScript", "SQL", "R", "C"] },
+    { "name": "ML & NLP", "keywords": ["PyTorch", "TensorFlow", "HuggingFace Transformers", "LangChain"] },
+    { "name": "Data & Engineering", "keywords": ["PySpark", "Apache Kafka", "Spring Boot", "ReactJS"] },
+    { "name": "DevOps & Cloud", "keywords": ["Docker", "AWS", "Git"] },
+    { "name": "HPC", "keywords": ["SLURM", "multi-GPU training", "Jean Zay"] },
+    { "name": "Databases", "keywords": ["SQL", "MongoDB", "ChromaDB"] },
+    { "name": "Languages", "keywords": ["Italian (native)", "English (C1 — IELTS 7.5)", "French (B2)"] }
   ],
   "certificates": [
     {
@@ -218,91 +212,6 @@
       "date": "2022-05",
       "issuer": "Amazon Web Services Training and Certification",
       "url": "https://www.credly.com/badges/cbe8a6cf-b73a-4744-9707-eeb7171f1ee5/public_url"
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "3IA Seminar Organizer",
-      "location": "Nice, France",
-      "position": "Organizer",
-      "url": "https://3ia.univ-cotedazur.eu/research/doctoral-postdoctoral-seminar-1",
-      "startDate": "2025-09-01",
-      "endDate": "2026-08-31",
-      "summary": "Organizing Seminar for PhDs and PostDocs of the 3IA community.",
-      "highlights": []
-    },
-    {
-      "organization": "Journée Natural Language Argumentation",
-      "location": "Nice, France",
-      "position": "Event Volunteer",
-      "url": "https://gdr-tal.ls2n.fr/event/journee-natural-language-argumentation-gdr-tal-gdr-radia/",
-      "startDate": "2023-11-27",
-      "endDate": "2023-11-27",
-      "summary": "Assisted in organizing a scientific event focused on natural language-based argument analysis, generation, and reasoning.",
-      "highlights": []
-    },
-    {
-      "organization": "Fondazione Collegio Universitario Einaudi",
-      "location": "Turin, Italy",
-      "position": "Student Delegate",
-      "url": "https://www.collegioeinaudi.it",
-      "startDate": "2020-01",
-      "endDate": "2021-08",
-      "summary": "Represented fellow students in academic and administrative matters within the college.",
-      "highlights": []
-    }
-  ],
-  "skills": [
-    {
-      "name": "Deep Learning",
-      "level": "Advanced",
-      "keywords": [
-        "PyTorch",
-        "Transformers",
-        "HuggingFace",
-        "Fine-tuning"
-      ]
-    },
-    {
-      "name": "Software Development",
-      "level": "Advanced",
-      "keywords": [
-        "Spring Boot",
-        "Kafka",
-        "Fluent Bit",
-        "ReactJS",
-        "PySpark",
-        "Docker",
-        "AWS",
-        "CI/CD"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "Advanced",
-      "keywords": [
-        "Python",
-        "Java",
-        "C",
-        "R",
-        "JavaScript",
-        "SQL",
-        "Bash"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Italian",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "French",
-      "fluency": "Intermediate"
     }
   ]
 }
