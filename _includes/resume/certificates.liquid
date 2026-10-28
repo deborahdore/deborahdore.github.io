@@ -2,6 +2,11 @@
   {% assign certificates = data[1] | sort: 'date' | reverse %}
   {% for content in certificates %}
     <div class="list-group col-md-6">
+      {% if content.image %}
+        <a href="{{ content.url }}" target="_blank" rel="noopener noreferrer" class="cert-badge">
+          <img src="{{ content.image | relative_url }}" alt="{{ content.name }} badge" loading="lazy">
+        </a>
+      {% endif %}
       <table class="table-cv list-group-table">
         <tbody>
           <tr>

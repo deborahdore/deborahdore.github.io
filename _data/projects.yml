@@ -54,6 +54,14 @@
     - {label: Code, url: "https://github.com/deborahdore/DataAnalysisAndVisualization"}
     - {label: Slides, url: "https://github.com/deborahdore/DataAnalysisAndVisualization/tree/main/slides"}
 
+- title: ServiceBook
+  category: Personal projects
+  note: iOS app
+  description: "A SwiftUI app that turns a vehicle's owner's manual into a live maintenance checklist, tracking what is overdue, due soon or upcoming by km and months. Claude finds the manual online or reads a PDF and converts it into the schedule; all data stays on the device."
+  tags: [Swift, SwiftUI, SwiftData, Claude API]
+  links:
+    - {label: Code, url: "https://github.com/deborahdore/ServiceBook"}
+
 - title: Multi-Source LMs for Audio
   category: Machine learning and data
   description: "Can a language model trained on vector-quantized audio help music generation and source separation? Code to train a VQ-VAE on the Slakh dataset, a Transformer on the quantized representation, and a BERT fine-tuned on codebook indices."

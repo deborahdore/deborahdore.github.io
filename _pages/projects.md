@@ -25,7 +25,7 @@ _styles: >
 <!-- _pages/projects.md -->
 
 <div class="projects">
-{% assign categories = "Research|Teaching|Machine learning and data|Software engineering" | split: "|" %}
+{% assign categories = "Research|Teaching|Personal projects|Machine learning and data|Software engineering" | split: "|" %}
 {% for category in categories %}
 <h2 class="category">{{ category }}</h2>
 <div class="row row-cols-1 row-cols-md-2">

@@ -198,10 +198,25 @@
   ],
   "certificates": [
     {
+      "name": "Model Context Protocol: Advanced Topics",
+      "date": "2026-10",
+      "issuer": "Anthropic — Claude Academy",
+      "url": "https://academy.claude.com/badges/2d794399-955a-4b66-9f08-4d41f32ae612",
+      "image": "assets/img/badges/claude-academy-mcp-advanced.png"
+    },
+    {
+      "name": "Introduction to Model Context Protocol",
+      "date": "2026-09",
+      "issuer": "Anthropic — Claude Academy",
+      "url": "https://academy.claude.com/badges/1f07a629-d43e-4dca-b36a-5d0691fa5aca",
+      "image": "assets/img/badges/claude-academy-mcp-intro.png"
+    },
+    {
       "name": "AWS Academy Cloud Foundations",
       "date": "2022-05",
       "issuer": "Amazon Web Services Training and Certification",
-      "url": "https://www.credly.com/badges/cbe8a6cf-b73a-4744-9707-eeb7171f1ee5/public_url"
+      "url": "https://www.credly.com/badges/cbe8a6cf-b73a-4744-9707-eeb7171f1ee5/public_url",
+      "image": "assets/img/badges/aws-academy-cloud-foundations.png"
     }
   ]
 }
