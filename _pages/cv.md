@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: Curriculum.pdf
+cv_pdf: Deborah_DORE_CV.pdf
 description: 
 toc:
   sidebar: left
