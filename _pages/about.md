@@ -22,15 +22,12 @@ announcements:
 
 ---
 
-My background is rooted in Artificial Intelligence. During my Bachelor's, I studied core topics in Computer Science such
-as Databases, Algorithms, and Programming. In my Master's, I specialized in AI through courses in Machine Learning, Deep
-Learning, and Natural Language Processing, which naturally led me to pursue a Ph.D.
+My research asks how we can automatically understand how people argue in political debates, and detect where that reasoning goes wrong.
 
-Currently, I focus on Argument Mining, a subfield of NLP concerned with automatically identifying arguments in text and
-classifying their structure—claims, premises, and their supporting or attacking relationships. This technology can help
-expose logical fallacies and propaganda, fostering more informed public discourse.
+I work in **Argument Mining**, an NLP field that detects and classifies argumentative structure in natural language: argument components (claims and premises), the relations between them (support and attack), and invalid reasoning (fallacies). My goal is to make public debate more trustworthy, and to help people recognize when manipulative techniques are being used.
 
-My research applies Argument Mining to political debates, where speakers build complex argumentative structures. Mapping
-these interactions can support voters in making better-informed decisions.
+My research spans everything from model pre-training (check out [RooseBERT](https://huggingface.co/collections/MARIANNE-INRIA/roosebert)!) to retrieval-augmented argument mining. What drives me is working where different fields meet: NLP, argumentation theory, political science, and more recently information retrieval and computer vision. I enjoy taking new ideas from the wider AI community, such as graph-based learning and multimodal models, and finding out what they can do for argument mining.
 
-<strong>Looking for a PhD internship in AI/NLP!</strong>
+All my work is publicly available on [GitHub](https://github.com/deborahdore).
+
+<strong>I'm currently looking for an internship at a frontier AI lab.</strong> If you'd like to talk about it, or about my research, [send me an email](mailto:deborah.dore@outlook.com)!

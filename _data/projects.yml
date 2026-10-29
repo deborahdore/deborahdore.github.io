@@ -20,13 +20,15 @@
     - {label: Paper, url: "https://arxiv.org/abs/2508.03250"}
     - {label: Models, url: "https://huggingface.co/collections/MARIANNE-INRIA/roosebert"}
 
-- title: DebateLens
+- title: DISPUTool
   category: Research
-  note: Work in progress
-  description: "A SwiftUI iOS app that lets journalists read US presidential debates (1960-2020) as annotated argumentation: claims and premises, what supports or attacks them, and the fallacies used. Built on ElecDeb60to20."
-  tags: [Swift, SwiftUI, iOS]
+  note: ACL 2025 (Demo Track)
+  description: "A web tool for mining and exploring arguments in US presidential debates (1960-2020), built at Inria and 3IA Côte d'Azur. DISPUTool 3.0 adds a module that detects and classifies fallacious arguments and shows how each argument reads once the fallacy is repaired."
+  tags: [Web demo, Argument mining, Fallacies, LLMs]
   links:
-    - {label: Code, url: "https://github.com/deborahdore/DebateLens"}
+    - {label: Demo, url: "https://3ia-demos.inria.fr/disputool/"}
+    - {label: Paper, url: "https://doi.org/10.18653/v1/2025.acl-demo.45"}
+    - {label: Poster, url: "/assets/poster/poster_disputool.pdf"}
 
 - title: Political Debates Graph Analysis
   category: Research
@@ -61,6 +63,14 @@
   tags: [Swift, SwiftUI, SwiftData, Claude API]
   links:
     - {label: Code, url: "https://github.com/deborahdore/ServiceBook"}
+
+- title: DebateLens
+  category: Personal projects
+  note: Work in progress
+  description: "A SwiftUI iOS app that lets journalists read US presidential debates (1960-2020) as annotated argumentation: claims and premises, what supports or attacks them, and the fallacies used. Built on ElecDeb60to20."
+  tags: [Swift, SwiftUI, iOS]
+  links:
+    - {label: Code, url: "https://github.com/deborahdore/DebateLens"}
 
 - title: Multi-Source LMs for Audio
   category: Machine learning and data
