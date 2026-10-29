@@ -1,79 +1,126 @@
 # Projects page (_pages/projects.md). Order here is the order on the page.
-# `category` must match one of the categories listed in _pages/projects.md.
+# `category` must match one of the sections listed in _pages/projects.md.
+# Optional fields:
+#   id      anchor used by the "How it fits together" strip (defaults to nothing)
+#   year    shown before the note
+#   img     thumbnail under /assets/img/ (16:9 for grid cards, square for featured)
+#   page    detail page; makes the title clickable and adds "Read more"
+#   badges  live shields.io images, only where the number is worth showing
+# The first link is the primary action and is drawn as a filled button.
+
+# --- Selected research (featured, horizontal cards) ---------------------------
 
 - title: FallacyRAG
-  category: Research
+  id: fallacyrag
+  category: Selected research
+  year: 2026
   note: Under review at EACL 2027
+  img: publication_preview/fallacyrag.webp
+  page: /projects/fallacyrag/
   description: "Retrieval-augmented fallacy detection and classification in US political debates, with retrieval steered by the support and attack relations between arguments. Improves macro-F1 up to 0.864 for detection and 0.725 for classification over non-retrieval baselines."
   tags: [Python, RAG, LLMs, Argument mining]
   links:
-    - {label: Code, url: "https://github.com/deborahdore/FallacyRAG"}
     - {label: Paper, url: "https://arxiv.org/abs/2608.27471"}
+    - {label: Code, url: "https://github.com/deborahdore/FallacyRAG"}
 
 - title: RooseBERT
-  category: Research
+  id: roosebert
+  category: Selected research
+  year: 2025–2026
   note: WI-IAT 2026
+  img: publication_preview/roosebert.jpeg
+  page: /projects/roosebert/
   description: "A BERT language model for political discourse, pre-trained on 11 GB of English debates and speeches (cased and uncased, from scratch or by continued pre-training). Outperforms general-purpose models on most downstream tasks, from stance detection to NER."
   tags: [Python, BERT, Pre-training, Hugging Face]
+  badges:
+    - {alt: GitHub stars, img: "https://img.shields.io/github/stars/deborahdore/RooseBERT?style=flat&logo=github&label=stars&color=6B48FF", url: "https://github.com/deborahdore/RooseBERT"}
+    - {alt: Models on Hugging Face, img: "https://img.shields.io/badge/Hugging_Face-4_models-FFD21E?logo=huggingface&logoColor=black", url: "https://huggingface.co/collections/MARIANNE-INRIA/roosebert"}
   links:
-    - {label: Code, url: "https://github.com/deborahdore/RooseBERT"}
     - {label: Paper, url: "https://arxiv.org/abs/2508.03250"}
     - {label: Models, url: "https://huggingface.co/collections/MARIANNE-INRIA/roosebert"}
+    - {label: Code, url: "https://github.com/deborahdore/RooseBERT"}
 
 - title: DISPUTool
-  category: Research
+  id: disputool
+  category: Selected research
+  year: 2025
   note: ACL 2025 (Demo Track)
+  img: publication_preview/disputool.webp
+  page: /projects/disputool/
   description: "A web tool for mining and exploring arguments in US presidential debates (1960-2020), built at Inria and 3IA Côte d'Azur. DISPUTool 3.0 adds a module that detects and classifies fallacious arguments and shows how each argument reads once the fallacy is repaired."
   tags: [Web demo, Argument mining, Fallacies, LLMs]
   links:
-    - {label: Demo, url: "https://3ia-demos.inria.fr/disputool/"}
+    - {label: Try the demo, url: "https://3ia-demos.inria.fr/disputool/"}
     - {label: Paper, url: "https://doi.org/10.18653/v1/2025.acl-demo.45"}
     - {label: Poster, url: "/assets/poster/poster_disputool.pdf"}
 
+# --- More research -------------------------------------------------------------
+
 - title: Political Debates Graph Analysis
-  category: Research
+  id: graph-relations
+  category: More research
+  year: 2023–2025
   note: ArgMining@ACL 2025
+  img: projects/graph-relations.webp
   description: "Code for 'Leveraging Graph Structural Knowledge to Improve Argument Relation Prediction in Political Debates'. Knowledge graph embeddings over the argument graph of US presidential debates predict support, attack and equivalence relations."
   tags: [Python, PyTorch, PyKEEN, Knowledge graphs]
   links:
-    - {label: Code, url: "https://github.com/deborahdore/political-debates-graph-analysis"}
     - {label: Paper, url: "https://doi.org/10.18653/v1/2025.argmining-1.7"}
+    - {label: Code, url: "https://github.com/deborahdore/political-debates-graph-analysis"}
 
 - title: ElecDeb60to20
-  category: Research
+  id: elecdeb
+  category: More research
+  year: 2023
   note: Dataset (fork)
+  img: projects/elecdeb.webp
   description: "Annotated corpus of US presidential debates (1960-2020) with argument components, support and attack relations, and fallacies. A fork of the public dataset repository, which my work on fallacy detection and relation prediction builds on."
   tags: [Dataset, Argument mining, Fallacies]
   links:
     - {label: Code, url: "https://github.com/deborahdore/ElecDeb60to20"}
 
-- title: Data Analysis and Visualization
-  category: Teaching
-  note: Course material, 2025
-  description: "Slides, Colab notebooks and solutions for the Data Analysis and Visualization course at CentraleDigitalLab@Nice: exploratory analysis, missing data and outliers, imbalanced data, text encoding, dimensionality reduction and visualization."
-  tags: [Python, Plotly, Jupyter]
-  links:
-    - {label: Code, url: "https://github.com/deborahdore/DataAnalysisAndVisualization"}
-    - {label: Slides, url: "https://github.com/deborahdore/DataAnalysisAndVisualization/tree/main/slides"}
-
-- title: ServiceBook
-  category: Personal projects
-  note: iOS app
-  description: "A SwiftUI app that turns a vehicle's owner's manual into a live maintenance checklist, tracking what is overdue, due soon or upcoming by km and months. Claude finds the manual online or reads a PDF and converts it into the schedule; all data stays on the device."
-  tags: [Swift, SwiftUI, SwiftData, Claude API]
-  links:
-    - {label: Code, url: "https://github.com/deborahdore/ServiceBook"}
+# --- Personal projects ---------------------------------------------------------
 
 - title: DebateLens
+  id: debatelens
   category: Personal projects
-  note: Work in progress
+  year: 2026
+  note: iOS app, work in progress
+  img: projects/debatelens.webp
   description: "A SwiftUI iOS app that lets journalists read US presidential debates (1960-2020) as annotated argumentation: claims and premises, what supports or attacks them, and the fallacies used. Built on ElecDeb60to20."
   tags: [Swift, SwiftUI, iOS]
   links:
     - {label: Code, url: "https://github.com/deborahdore/DebateLens"}
 
+- title: ServiceBook
+  category: Personal projects
+  year: 2026
+  note: iOS app
+  img: projects/servicebook.webp
+  description: "A SwiftUI app that turns a vehicle's owner's manual into a live maintenance checklist, tracking what is overdue, due soon or upcoming by km and months. Claude finds the manual online or reads a PDF and converts it into the schedule; all data stays on the device."
+  tags: [Swift, SwiftUI, SwiftData, Claude API]
+  links:
+    - {label: Code, url: "https://github.com/deborahdore/ServiceBook"}
+
+# --- Teaching (single wide card) -----------------------------------------------
+
+- title: Data Analysis and Visualization
+  category: Teaching
+  year: 2024–2025
+  note: Course material, CentraleDigitalLab@Nice
+  img: projects/data-analysis-course.webp
+  description: "Slides, Colab notebooks and solutions for the Data Analysis and Visualization course at CentraleDigitalLab@Nice: exploratory analysis, missing data and outliers, imbalanced data, text encoding, dimensionality reduction and visualization."
+  tags: [Python, Plotly, Jupyter]
+  links:
+    - {label: Slides, url: "https://github.com/deborahdore/DataAnalysisAndVisualization/tree/main/slides"}
+    - {label: Code, url: "https://github.com/deborahdore/DataAnalysisAndVisualization"}
+
+# --- Machine learning and data (three columns) ---------------------------------
+
 - title: Multi-Source LMs for Audio
   category: Machine learning and data
+  year: 2024
+  img: projects/multisource-audio.webp
   description: "Can a language model trained on vector-quantized audio help music generation and source separation? Code to train a VQ-VAE on the Slakh dataset, a Transformer on the quantized representation, and a BERT fine-tuned on codebook indices."
   tags: [Python, PyTorch Lightning, Hydra]
   links:
@@ -81,6 +128,8 @@
 
 - title: Cross-Lingual Embeddings
   category: Machine learning and data
+  year: 2024
+  img: projects/cross-lingual.webp
   description: "An encoder-decoder model that places Italian and French embeddings in a shared latent space, trained with a contrastive loss on Europarl parallel corpora, with hyperparameter optimization and an ablation study."
   tags: [Python, PyTorch, Transformers]
   links:
@@ -88,6 +137,8 @@
 
 - title: Segmentation Is All You Need
   category: Machine learning and data
+  year: 2023
+  img: projects/segmentation.webp
   description: "Is segmentation always a useful preprocessing step in computer vision? Compares thresholding, watershed and clustering-based segmentation before classification and object detection, on images of the ten Formula 1 teams."
   tags: [Python, Computer vision, Object detection]
   links:
@@ -95,44 +146,50 @@
     - {label: Slides, url: "https://github.com/deborahdore/segmentation-is-all-you-need/blob/main/Presentation.pdf"}
     - {label: Demo, url: "https://github.com/deborahdore/segmentation-is-all-you-need/blob/main/demo.mov"}
 
+# --- Earlier work (compact list, one line each) --------------------------------
+
 - title: SarcasTweet
-  category: Machine learning and data
-  description: "A neural network that classifies Italian tweets as sarcastic or not, trained on a manually annotated dataset. The notebook covers collecting tweets, analysis and training; the best model is served by a Flask app packaged as a Docker image."
-  tags: [Python, NLP, Flask, Docker]
+  category: Earlier work
+  year: 2022
+  description: "Classifies Italian tweets as sarcastic or not; the best model is served by a Flask app in Docker."
+  tags: [NLP, Flask, Docker]
   links:
     - {label: Code, url: "https://github.com/deborahdore/SarcasTweet"}
     - {label: Notebook, url: "https://colab.research.google.com/github/deborahdore/SarcasTweet/blob/main/SarcasTweet.ipynb"}
 
 - title: Smart Houses
-  category: Machine learning and data
-  description: "Hour-ahead demand response for home energy management, with Vincenzo Imperati. An LSTM forecasts electricity prices twelve hours ahead and multi-agent reinforcement learning schedules each appliance to cut cost and user discomfort."
-  tags: [Python, LSTM, Reinforcement learning]
+  category: Earlier work
+  year: 2022
+  description: "Home energy demand response: an LSTM forecasts prices and multi-agent RL schedules appliances. With Vincenzo Imperati."
+  tags: [LSTM, Reinforcement learning]
   links:
     - {label: Code, url: "https://github.com/deborahdore/Smart-Houses"}
     - {label: Report, url: "https://github.com/deborahdore/Smart-Houses/blob/main/Smart%20Houses.pdf"}
 
 - title: Know a Person by Its Heart
-  category: Machine learning and data
-  description: "Biometric identification from electrocardiograms, aimed at signals recorded by a smartwatch. Filtering and denoising, feature extraction from the ECG waves, and a classifier evaluated with CMC curves on the PTB diagnostic ECG database."
-  tags: [Python, scikit-learn, Signal processing]
+  category: Earlier work
+  year: 2022
+  description: "Biometric identification from smartwatch-style ECG signals, evaluated with CMC curves on the PTB database."
+  tags: [Signal processing, scikit-learn]
   links:
     - {label: Code, url: "https://github.com/deborahdore/Know-A-Person-By-Its-Heart"}
     - {label: Report, url: "https://github.com/deborahdore/Know-A-Person-By-Its-Heart/blob/main/Know_A_Person_By_Their_Heart.pdf"}
 
+- title: Prodigit Bot
+  category: Earlier work
+  year: 2022
+  description: "Telegram bot for booking study rooms at Sapienza, built with a small team. Inactive since the end of the COVID emergency."
+  tags: [Python, Telegram]
+  links:
+    - {label: Code, url: "https://github.com/deborahdore/prodigit-bot"}
+
 - title: QRestaurant
-  category: Software engineering
+  category: Earlier work
+  year: 2021
   note: Bachelor thesis
-  description: "Digital guest registration for restaurants during COVID-19. Customers carry a personal QR code that restaurateurs scan to log attendance and receive alerts about positive cases. A Spring Boot backend and a React web app for restaurateurs."
-  tags: [Java, Spring Boot, React, Docker]
+  description: "COVID-19 guest registration for restaurants via personal QR codes. Spring Boot backend and React web app."
+  tags: [Java, Spring Boot, React]
   links:
     - {label: Backend, url: "https://github.com/deborahdore/QRestaurant-Backend"}
     - {label: Web app, url: "https://github.com/deborahdore/QRestaurant-Business-Web"}
     - {label: Thesis (IT), url: "https://github.com/deborahdore/QRestaurant-Backend/blob/main/Tesi.pdf"}
-
-- title: Prodigit Bot
-  category: Software engineering
-  note: Team project, inactive
-  description: "A Telegram bot that books study rooms at Sapienza for Computer Science master's students, built with a small team. Inactive since the end of the COVID emergency."
-  tags: [Python, Telegram bot]
-  links:
-    - {label: Code, url: "https://github.com/deborahdore/prodigit-bot"}

@@ -104,8 +104,11 @@ collections:
     output: true
 #  books:
 #    output: true
-#  projects:
-#    output: true
+  projects:
+    output: true
+    permalink: /projects/:name/
+    defaults:
+      layout: page
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
