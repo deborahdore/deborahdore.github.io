@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Centre Inria d'Université Côte d'Azur</p>
-    <p>2004, route des Lucioles, BP 93</p>
+    <p>2004 route des Lucioles </p>
     <p>06902 Sophia Antipolis Cedex, France</p>
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
