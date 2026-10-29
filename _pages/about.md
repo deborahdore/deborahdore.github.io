@@ -26,7 +26,7 @@ My research asks how we can automatically understand how people argue in politic
 
 I work in **Argument Mining**, an NLP field that detects and classifies argumentative structure in natural language: argument components (claims and premises), the relations between them (support and attack), and invalid reasoning (fallacies). My goal is to make public debate more trustworthy, and to help people recognize when manipulative techniques are being used.
 
-My research spans everything from model pre-training (check out [RooseBERT](https://huggingface.co/collections/MARIANNE-INRIA/roosebert)!) to retrieval-augmented argument mining. What drives me is working where different fields meet: NLP, argumentation theory, political science, and more recently information retrieval and computer vision. I enjoy taking new ideas from the wider AI community, such as graph-based learning and multimodal models, and finding out what they can do for argument mining.
+My research spans everything from model pre-training (check out [RooseBERT](https://huggingface.co/collections/ddore14/roosebert)!) to retrieval-augmented argument mining. What drives me is working where different fields meet: NLP, argumentation theory, political science, and more recently information retrieval and computer vision. I enjoy taking new ideas from the wider AI community, such as graph-based learning and multimodal models, and finding out what they can do for argument mining.
 
 All my work is publicly available on [GitHub](https://github.com/deborahdore).
 

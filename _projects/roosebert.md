@@ -6,7 +6,7 @@ description: A new deal for political language modelling.
 
 <p class="project-actions">
 <a class="btncv primary" href="https://arxiv.org/abs/2508.03250" target="_blank" rel="noopener noreferrer">Paper</a>
-<a class="btncv" href="https://huggingface.co/collections/MARIANNE-INRIA/roosebert" target="_blank" rel="noopener noreferrer">Models</a>
+<a class="btncv" href="https://huggingface.co/collections/ddore14/roosebert" target="_blank" rel="noopener noreferrer">Models</a>
 <a class="btncv" href="https://github.com/deborahdore/RooseBERT" target="_blank" rel="noopener noreferrer">Code</a>
 <span class="project-status">WI-IAT 2026 · with Elena Cabrio and Serena Villata</span>
 </p>

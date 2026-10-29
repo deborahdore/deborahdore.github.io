@@ -34,10 +34,10 @@
   tags: [Python, BERT, Pre-training, Hugging Face]
   badges:
     - {alt: GitHub stars, img: "https://img.shields.io/github/stars/deborahdore/RooseBERT?style=flat&logo=github&label=stars&color=6B48FF", url: "https://github.com/deborahdore/RooseBERT"}
-    - {alt: Models on Hugging Face, img: "https://img.shields.io/badge/Hugging_Face-4_models-FFD21E?logo=huggingface&logoColor=black", url: "https://huggingface.co/collections/MARIANNE-INRIA/roosebert"}
+    - {alt: Models on Hugging Face, img: "https://img.shields.io/badge/Hugging_Face-4_models-FFD21E?logo=huggingface&logoColor=black", url: "https://huggingface.co/collections/ddore14/roosebert"}
   links:
     - {label: Paper, url: "https://arxiv.org/abs/2508.03250"}
-    - {label: Models, url: "https://huggingface.co/collections/MARIANNE-INRIA/roosebert"}
+    - {label: Models, url: "https://huggingface.co/collections/ddore14/roosebert"}
     - {label: Code, url: "https://github.com/deborahdore/RooseBERT"}
 
 - title: DISPUTool
