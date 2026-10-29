@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Code behind my research, teaching and side projects, all open source on GitHub.",
+          description: "Code, models and demos behind my research, teaching and side projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -66,7 +66,22 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-roosebert-a-new-deal-for-political-language-modelling-deborah-dore-elena-cabrio-serena-villata-has-been-accepted-at-wi-iat-2026-we-re-releasing-roosebert-a-pre-trained-language-model-built-for-political-debates-and-discourse-designed-to-help-researchers-navigate-the-specialized-language-of-politics",
           title: '📢 Our paper “RooseBERT: A New Deal For Political Language Modelling” (Deborah Dore,...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-disputool",
+          title: 'DISPUTool',
+          description: "Fallacy detection and repairing in argumentative political debates.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/disputool/";
+            },},{id: "projects-fallacyrag",
+          title: 'FallacyRAG',
+          description: "Retrieving relations, detecting fallacies. A RAG approach to political debate analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fallacyrag/";
+            },},{id: "projects-roosebert",
+          title: 'RooseBERT',
+          description: "A new deal for political language modelling.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/roosebert/";
+            },},{
         id: 'social-dblp',
         title: 'DBLP',
         section: 'Socials',
