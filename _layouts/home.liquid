@@ -269,6 +269,11 @@
           {% if page.profile.more_info %}
             <div class="contact-address reveal">{{ page.profile.more_info }}</div>
           {% endif %}
+          {% if page.social %}
+            <div class="social reveal">
+              <div class="contact-icons">{% include social.liquid %}</div>
+            </div>
+          {% endif %}
         </div>
       </section>
     </main>
