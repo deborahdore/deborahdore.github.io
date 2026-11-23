@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -65,6 +65,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-roosebert-a-new-deal-for-political-language-modelling-deborah-dore-elena-cabrio-serena-villata-has-been-accepted-at-wi-iat-2026-we-re-releasing-roosebert-a-pre-trained-language-model-built-for-political-debates-and-discourse-designed-to-help-researchers-navigate-the-specialized-language-of-politics",
           title: '📢 Our paper “RooseBERT: A New Deal For Political Language Modelling” (Deborah Dore,...',
+          description: "",
+          section: "News",},{id: "news-our-paper-retrieving-relations-detecting-fallacies-a-rag-approach-to-political-debate-analysis-deborah-dore-greta-damo-elena-cabrio-serena-villata-has-been-accepted-at-eacl-2027-we-show-that-using-the-support-and-attack-relations-between-arguments-to-guide-retrieval-helps-language-models-detect-and-classify-fallacies-in-political-debates",
+          title: '📢 Our paper “Retrieving Relations, Detecting Fallacies: A RAG Approach To Political Debate...',
           description: "",
           section: "News",},{id: "projects-disputool",
           title: 'DISPUTool',
