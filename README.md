@@ -1,6 +1,6 @@
 # Deborah Dore
 
-**PhD student in Natural Language Processing** at Université Côte d'Azur, in the [MARIANNE team](https://www.inria.fr/fr/marianne) (Inria, CNRS, I3S), supervised by Serena Villata and Elena Cabrio.
+**PhD student in Natural Language Processing** at CNRS, INRIA, Université Côte d'Azur, in the [MARIANNE team](https://www.inria.fr/fr/marianne).
 
 🌐 **Website:** [deborahdore.github.io](https://deborahdore.github.io)
 
@@ -29,7 +29,3 @@ The full list of publications is on [my website](https://deborahdore.github.io/p
 ## Find me
 
 [Google Scholar](https://scholar.google.com/citations?user=ZLle29QAAAAJ) · [DBLP](https://dblp.org/pid/414/7929) · [ORCID](https://orcid.org/0009-0004-7248-6086) · [LinkedIn](https://www.linkedin.com/in/deborah-dore) · [Hugging Face](https://huggingface.co/ddore14) · [Email](mailto:deborah.dore@outlook.com)
-
----
-
-<sub>This site is built with Jekyll on top of the [al-folio](https://github.com/alshedivat/al-folio) theme (MIT License). Setup and customization notes from the theme are kept in [INSTALL.md](INSTALL.md) and [CUSTOMIZE.md](CUSTOMIZE.md).</sub>
