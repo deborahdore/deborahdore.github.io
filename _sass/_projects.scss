@@ -24,7 +24,7 @@ a.btncv.primary {
 
   .project-status {
     color: var(--global-text-color-light);
-    font-size: 0.85rem;
+    font-size: 1rem;
     margin-left: 0.25rem;
   }
 }
@@ -40,7 +40,7 @@ a.btncv.primary {
 }
 .projects .section-intro {
   color: var(--global-text-color-light);
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 .projects .card {
@@ -80,7 +80,7 @@ a.btncv.primary {
 .projects .project-meta,
 .projects .project-tags {
   color: var(--global-text-color-light);
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .projects .project-meta {
   margin-bottom: 0.6rem;
@@ -90,7 +90,7 @@ a.btncv.primary {
   font-weight: 500;
 }
 .projects .card-text {
-  font-size: 0.92rem;
+  font-size: 1rem;
 }
 .projects .project-tags {
   margin-bottom: 0;
@@ -112,7 +112,7 @@ a.btncv.primary {
   gap: 0.5rem;
 }
 .projects a.read-more {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-left: auto;
 }
 
@@ -167,12 +167,12 @@ a.btncv.primary {
   top: 50%;
   transform: translate(50%, -50%);
   color: var(--global-theme-color);
-  font-size: 0.9rem;
+  font-size: 1rem;
   z-index: 1;
 }
 .projects .pipeline .step {
   display: block;
-  font-size: 0.68rem;
+  font-size: 1rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--global-theme-color);
@@ -189,7 +189,7 @@ a.btncv.primary {
 }
 .projects .pipeline .what {
   display: block;
-  font-size: 0.78rem;
+  font-size: 1rem;
   color: var(--global-text-color-light);
   line-height: 1.3;
 }
@@ -221,20 +221,20 @@ a.btncv.primary {
 }
 .projects .earlier .year {
   color: var(--global-text-color-light);
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 .projects .earlier .title {
   font-weight: 500;
 }
 .projects .earlier .desc {
   display: block;
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--global-text-color-light);
 }
 .projects .earlier .links {
   display: flex;
   gap: 0.75rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   white-space: nowrap;
 }
 @media (max-width: 575px) {

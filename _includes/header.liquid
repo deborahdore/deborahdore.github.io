@@ -2,28 +2,6 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
-      {% endif %}
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -34,10 +12,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar top-bar"></span>
-        <span class="icon-bar middle-bar"></span>
-        <span class="icon-bar bottom-bar"></span>
+        <span class="menu-label">Menu</span>
       </button>
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
@@ -117,11 +92,16 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          <!-- CV and email pills -->
+          <li class="nav-item nav-pills-cta">
+            <a class="pill pill-primary" href="{{ '/assets/pdf/Deborah_DORE_CV.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV</a>
+            <a class="pill" href="mailto:{{ site.data.socials.email }}">Email</a>
+          </li>
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+                <span class="nav-link"><i class="ti ti-search"></i></span>
               </button>
             </li>
           {% endif %}

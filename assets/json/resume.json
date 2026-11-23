@@ -82,8 +82,8 @@
     {
       "name": "Retrieving Relations, Detecting Fallacies: A RAG Approach To Political Debate Analysis",
       "authors": "<b>D. Dore</b>, G. Damo, E. Cabrio, S. Villata",
-      "publisher": "Under review @ EACL 2027",
-      "releaseDate": "2026",
+      "publisher": "EACL 2027",
+      "releaseDate": "2027",
       "url": "https://arxiv.org/abs/2608.27471"
     },
     {
@@ -188,13 +188,13 @@
     }
   ],
   "skills": [
-    { "name": "Languages & Programming", "keywords": ["Python", "Java", "JavaScript", "SQL", "R", "C"] },
-    { "name": "ML & NLP", "keywords": ["PyTorch", "TensorFlow", "HuggingFace Transformers", "LangChain"] },
-    { "name": "Data & Engineering", "keywords": ["PySpark", "Apache Kafka", "Spring Boot", "ReactJS"] },
-    { "name": "DevOps & Cloud", "keywords": ["Docker", "AWS", "Git"] },
-    { "name": "HPC", "keywords": ["SLURM", "multi-GPU training", "Jean Zay"] },
-    { "name": "Databases", "keywords": ["SQL", "MongoDB", "ChromaDB"] },
-    { "name": "Languages", "keywords": ["Italian (native)", "English (C1 — IELTS 7.5)", "French (B2)"] }
+    { "name": "LLMs & Deep Learning", "keywords": ["PyTorch", "Hugging Face (Transformers, Datasets, TRL, PEFT, Accelerate)", "LLM fine-tuning (multi-turn chat SFT, LoRA)", "Domain-adaptive pre-training", "Tokenizer training"] },
+    { "name": "Agents & RAG", "keywords": ["LangChain", "MCP", "RAG (hybrid retrieval with BM25, cross-encoder reranking)"] },
+    { "name": "Training & Serving", "keywords": ["Multi-GPU distributed training (FSDP, DeepSpeed, torchrun)", "H100 cluster (Azzurra)", "A100 cluster (Jean Zay)", "SLURM", "Linux", "vLLM", "W&B"] },
+    { "name": "Evaluation & Research", "keywords": ["Benchmarking of open-source LLMs", "LLM-as-a-judge", "Experimental protocol design", "Literature reviews & technology watch"] },
+    { "name": "Programming", "keywords": ["Python", "SQL", "Java", "C", "JavaScript", "Spring Boot"] },
+    { "name": "Data & Infra", "keywords": ["Docker", "Git", "AWS", "PySpark", "Kafka"] },
+    { "name": "Languages", "keywords": ["Italian (native)", "English (C1, IELTS 7.5)", "French (B2)"] }
   ],
   "certificates": [
     {

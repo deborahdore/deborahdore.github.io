@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: home
 title: about
 permalink: /
 subtitle: PhD Student in the <a href='https://www.inria.fr/fr/marianne'>Marianne TEAM</a>.
@@ -15,14 +15,38 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+hero:
+  badge: Open to research internships · starting May–July 2027
+  keywords:
+    - Argument Mining
+    - Large Language Models
+    - Retrieval Augmented Generation
+    - Pre-Training
+    - Political Debates
+  tagline: PhD in NLP · CNRS · Sophia Antipolis
+  stickers:
+    - Inria · CNRS · 3IA Côte d'Azur
+    - ACL · EACL · WI-IAT · COMMA
+    - IT · EN · FR
+
+statement: My research asks how we can automatically understand how people argue in political debates, and detect where that reasoning goes wrong.
+
+lead: I work where NLP, argumentation theory and political science meet.
+
+interests:
+  - Argument Mining
+  - Fallacy Detection
+  - Political Discourse
+  - Retrieval-Augmented Generation
+  - Language Model Pre-training
+  - Multimodal NLP
+
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 ---
-
-My research asks how we can automatically understand how people argue in political debates, and detect where that reasoning goes wrong.
 
 I work in **Argument Mining**, an NLP field that detects and classifies argumentative structure in natural language: argument components (claims and premises), the relations between them (support and attack), and invalid reasoning (fallacies). My goal is to make public debate more trustworthy, and to help people recognize when manipulative techniques are being used.
 

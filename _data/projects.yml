@@ -14,8 +14,8 @@
   id: fallacyrag
   category: Selected research
   year: 2026
-  note: Under review at EACL 2027
-  img: publication_preview/fallacyrag.webp
+  note: EACL 2027
+  img: publication_preview/fallacyrag-icon.webp
   page: /projects/fallacyrag/
   description: "Retrieval-augmented fallacy detection and classification in US political debates, with retrieval steered by the support and attack relations between arguments. Improves macro-F1 up to 0.864 for detection and 0.725 for classification over non-retrieval baselines."
   tags: [Python, RAG, LLMs, Argument mining]
@@ -28,7 +28,7 @@
   category: Selected research
   year: 2025–2026
   note: WI-IAT 2026
-  img: publication_preview/roosebert.jpeg
+  img: publication_preview/roosebert-icon.webp
   page: /projects/roosebert/
   description: "A BERT language model for political discourse, pre-trained on 11 GB of English debates and speeches (cased and uncased, from scratch or by continued pre-training). Outperforms general-purpose models on most downstream tasks, from stance detection to NER."
   tags: [Python, BERT, Pre-training, Hugging Face]
@@ -45,7 +45,7 @@
   category: Selected research
   year: 2025
   note: ACL 2025 (Demo Track)
-  img: publication_preview/disputool.webp
+  img: publication_preview/disputool-icon.webp
   page: /projects/disputool/
   description: "A web tool for mining and exploring arguments in US presidential debates (1960-2020), built at Inria and 3IA Côte d'Azur. DISPUTool 3.0 adds a module that detects and classifies fallacious arguments and shows how each argument reads once the fallacy is repaired."
   tags: [Web demo, Argument mining, Fallacies, LLMs]

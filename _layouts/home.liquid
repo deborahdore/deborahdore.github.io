@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include head.liquid %}
+  </head>
+
+  <body class="home-page {% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    {% include header.liquid %}
+
+    {% assign email = site.data.socials.email %}
+    {% assign cv_url = '/assets/pdf/Deborah_DORE_CV.pdf' | relative_url %}
+    {% assign full_name = site.first_name | append: ' ' | append: site.last_name %}
+    {% assign this_year = site.time | date: '%Y' | plus: 0 %}
+
+    <main class="home" role="main">
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="hero-dots" aria-hidden="true"></div>
+
+        {% if page.hero.badge %}
+          <p class="hero-badge reveal"><span class="pulse" aria-hidden="true"></span>{{ page.hero.badge }}</p>
+        {% endif %}
+
+        <div class="hero-stage">
+          <div class="marquee" aria-hidden="true">
+            {% assign kw = page.hero.keywords %}
+            {% assign kw_a = kw | slice: 2, kw.size %}
+            {% assign kw_b = kw | slice: 0, 2 %}
+            {% assign kw_shifted = kw_a | concat: kw_b %}
+            {% for row in (1..2) %}
+              {% if row == 1 %}{% assign words = kw %}{% else %}{% assign words = kw_shifted %}{% endif %}
+              <div class="marquee-row {% if row == 2 %}reverse{% endif %}">
+                <div class="marquee-track">
+                  {% assign n = 0 %}
+                  {% for i in (1..4) %}
+                    {% for w in words %}
+                      {% assign n = n | plus: 1 %}
+                      {% assign parity = n | plus: row | modulo: 2 %}
+                      <span class="{% if parity == 0 %}solid{% else %}outline{% endif %}">{{ w }}</span>
+                      <span class="sep">·</span>
+                    {% endfor %}
+                  {% endfor %}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+
+          <figure class="hero-portrait">
+            <img
+              src="{{ '/assets/img/myphoto-800.webp' | relative_url }}"
+              srcset="{{ '/assets/img/myphoto-480.webp' | relative_url }} 480w, {{ '/assets/img/myphoto-800.webp' | relative_url }} 800w, {{ '/assets/img/myphoto-1400.webp' | relative_url }} 1400w"
+              sizes="(min-width: 768px) 400px, 72vw"
+              alt="Portrait of {{ full_name }}"
+              loading="eager"
+              fetchpriority="high"
+            >
+          </figure>
+
+          {% for sticker in page.hero.stickers %}
+            <span class="sticker sticker-{{ forloop.index }}">{{ sticker }}</span>
+          {% endfor %}
+        </div>
+
+        <h1 class="hero-name">{{ full_name }}</h1>
+        <p class="hero-tagline">{{ page.hero.tagline }}</p>
+
+        <div class="hero-cta">
+          <a class="pill pill-primary pill-lg" href="{{ cv_url }}" target="_blank" rel="noopener">Download CV</a>
+          <a class="pill pill-lg" href="mailto:{{ email }}">Email me</a>
+        </div>
+      </section>
+
+      <!-- Statement -->
+      {% if page.statement %}
+        <section class="statement" id="statement">
+          <div class="home-wrap">
+            <p class="statement-text" data-words>{{ page.statement }}</p>
+          </div>
+        </section>
+      {% endif %}
+
+      <!-- Research -->
+      <section class="home-section" id="research">
+        <div class="home-wrap">
+          <p class="eyebrow reveal"><span class="num">01</span> · Research</p>
+          <h2 class="section-title reveal">Research</h2>
+          <div class="research-grid">
+            <div class="research-text reveal">
+              {% if page.lead %}<p class="lead-text">{{ page.lead }}</p>{% endif %}
+              {{ content }}
+            </div>
+            <div class="research-art" aria-hidden="true">
+              <canvas id="arg-graph" width="360" height="360"></canvas>
+              <p class="art-caption">claims · premises · <span class="support">support</span> · <span class="attack">attack</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News -->
+      {% if page.announcements and page.announcements.enabled %}
+        <section class="home-section" id="news">
+          <div class="home-wrap">
+            <p class="eyebrow reveal"><span class="num">02</span> · News</p>
+            <h2 class="section-title reveal">News</h2>
+            <ol class="news-list">
+              {% assign news = site.news | reverse %}
+              {% for item in news limit: page.announcements.limit %}
+                <li class="news-item reveal">
+                  <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: '%b %Y' }}</time>
+                  <div class="news-body">
+                    {% if item.inline %}
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {% else %}
+                      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {% endif %}
+                  </div>
+                </li>
+              {% endfor %}
+            </ol>
+            <p class="section-more reveal"><a class="pill" href="{{ '/news/' | relative_url }}">All news <span class="arrow">→</span></a></p>
+          </div>
+        </section>
+      {% endif %}
+
+      <!-- Projects -->
+      <section class="home-section" id="projects">
+        <div class="home-wrap">
+          <p class="eyebrow reveal"><span class="num">03</span> · Projects</p>
+          <h2 class="section-title reveal">Projects</h2>
+          {% assign selected = site.data.projects | where: 'category', 'Selected research' %}
+          {% for p in selected %}
+            <article class="proj {% cycle '', 'flip' %} reveal">
+              <div class="proj-text">
+                <p class="proj-num">{{ forloop.index }}</p>
+                <h3 class="proj-title">
+                  {% if p.page %}<a href="{{ p.page | relative_url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+                </h3>
+                <div class="chips">
+                  {% for t in p.tags %}<span class="chip">{{ t }}</span>{% endfor %}
+                </div>
+                {% if p.note %}
+                  <span class="chip chip-status">{{ p.note }}{% if p.year %} · {{ p.year }}{% endif %}</span>
+                {% endif %}
+                <p class="proj-desc">{{ p.description }}</p>
+                <div class="proj-links">
+                  {% for l in p.links %}
+                    <a
+                      class="pill {% if forloop.first %}pill-primary{% endif %}"
+                      href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}"
+                      target="_blank"
+                      rel="noopener"
+                    >{{ l.label }} <span class="arrow">→</span></a>
+                  {% endfor %}
+                  {% if p.page %}<a class="pill pill-ghost" href="{{ p.page | relative_url }}">Read more</a>{% endif %}
+                </div>
+              </div>
+              {% if p.img %}
+                <a class="proj-media" href="{% if p.page %}{{ p.page | relative_url }}{% else %}#projects{% endif %}" tabindex="-1">
+                  <img src="{{ '/assets/img/' | append: p.img | relative_url }}" alt="{{ p.title }}" loading="lazy">
+                </a>
+              {% endif %}
+            </article>
+          {% endfor %}
+          <p class="section-more reveal"><a class="pill" href="{{ '/projects/' | relative_url }}">All projects <span class="arrow">→</span></a></p>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="home-section" id="experience">
+        <div class="home-wrap">
+          <p class="eyebrow reveal"><span class="num">04</span> · Experience</p>
+          <h2 class="section-title reveal">Experience</h2>
+        </div>
+        <div class="exp-track" id="exp-track" tabindex="0" aria-label="Experience and education">
+          {% assign resume = site.data.resume %}
+          {% assign edu_current = resume.education | where: 'endDate', '' %}
+          {% assign edu_past = resume.education | where_exp: 'e', "e.endDate != ''" %}
+          {% assign exp_rest = resume.work | concat: edu_past | sort: 'startDate' | reverse %}
+          {% assign exp_entries = edu_current | concat: exp_rest %}
+          {% for e in exp_entries %}
+            {% assign start_y = e.startDate | slice: 0, 4 %}
+            {% assign end_y = e.endDate | slice: 0, 4 %}
+            {% if e.studyType %}
+              {% assign e_title = e.studyType | append: ' in ' | append: e.area %}
+              {% assign e_org = e.institution %}
+              {% assign e_kind = 'Education' %}
+            {% else %}
+              {% assign e_title = e.position %}
+              {% assign e_org = e.name %}
+              {% assign e_kind = 'Experience' %}
+            {% endif %}
+            <article class="exp-card reveal">
+              <span class="exp-dot" aria-hidden="true"></span>
+              <p class="exp-when">
+                {% if e.endDate == '' %}Current{% elsif start_y == end_y %}{{ end_y }}{% else %}{{ start_y }}–{{ end_y }}{% endif %}
+              </p>
+              <h3 class="exp-title">{{ e_title }}</h3>
+              <p class="exp-org">{{ e_org }}</p>
+              {% if e.highlights %}<p class="exp-desc">{{ e.highlights | first }}</p>{% endif %}
+              <p class="exp-kind">
+                {{ e_kind }}{% if e.location %} · {{ e.location }}{% endif %}{% if e.endDate == '' %} · since {{ start_y }}{% endif %}
+              </p>
+            </article>
+          {% endfor %}
+        </div>
+        <div class="home-wrap">
+          <div class="exp-controls">
+            <button class="exp-btn" data-dir="-1" aria-label="Previous">←</button>
+            <span class="exp-line" aria-hidden="true"><span class="exp-line-fill" id="exp-line-fill"></span></span>
+            <button class="exp-btn" data-dir="1" aria-label="Next">→</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Publications -->
+      {% if page.selected_papers %}
+        <section class="home-section" id="publications">
+          <div class="home-wrap">
+            <p class="eyebrow reveal"><span class="num">05</span> · Publications</p>
+            <h2 class="section-title reveal">Selected publications</h2>
+            <div class="reveal">{% include selected_papers.liquid %}</div>
+            <p class="section-more reveal"><a class="pill" href="{{ '/publications/' | relative_url }}">All publications <span class="arrow">→</span></a></p>
+          </div>
+        </section>
+      {% endif %}
+
+      <!-- Skills and interests -->
+      <section class="home-section" id="interests">
+        <div class="home-wrap">
+          <p class="eyebrow reveal"><span class="num">06</span> · Interests</p>
+          <h2 class="section-title reveal">Skills and Interests</h2>
+
+          {% if page.interests %}
+            <p class="group-label reveal">Research interests</p>
+            <div class="chips chips-xl reveal">
+              {% for i in page.interests %}<span class="chip">{{ i }}</span>{% endfor %}
+            </div>
+          {% endif %}
+
+          {% for group in site.data.resume.skills %}
+            <p class="group-label reveal">{{ group.name }}</p>
+            <div class="chips reveal">
+              {% for k in group.keywords %}
+                {% assign parts = k | split: ' (' %}
+                <span class="chip">
+                  {{- parts[0] -}}
+                  {%- if parts[1] %} <span class="lvl">{{ parts[1] | remove: ')' }}</span>{% endif -%}
+                </span>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="home-section contact" id="contact">
+        <div class="home-wrap">
+          <p class="eyebrow reveal"><span class="num">07</span> · Contact</p>
+          <a class="connect reveal" href="mailto:{{ email }}">Let's connect</a>
+          {% if site.contact_note %}<p class="contact-note-text reveal">{{ site.contact_note }}</p>{% endif %}
+          <div class="contact-links reveal">
+            <a href="mailto:{{ email }}">{{ email }}</a>
+            {% if site.data.socials.github_username %}<a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+            {% if site.data.socials.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+            {% if site.data.socials.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+            <a href="{{ cv_url }}" target="_blank" rel="noopener">Download CV</a>
+          </div>
+          {% if page.profile.more_info %}
+            <div class="contact-address reveal">{{ page.profile.more_info }}</div>
+          {% endif %}
+        </div>
+      </section>
+    </main>
+
+    {% include footer.liquid %}
+    {% include scripts.liquid %}
+    <script defer src="{{ '/assets/js/portfolio.js' | relative_url | bust_file_cache }}"></script>
+  </body>
+</html>

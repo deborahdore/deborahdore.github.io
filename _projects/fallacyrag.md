@@ -7,7 +7,7 @@ description: Retrieving relations, detecting fallacies. A RAG approach to politi
 <p class="project-actions">
 <a class="btncv primary" href="https://arxiv.org/abs/2608.27471" target="_blank" rel="noopener noreferrer">Paper</a>
 <a class="btncv" href="https://github.com/deborahdore/FallacyRAG" target="_blank" rel="noopener noreferrer">Code</a>
-<span class="project-status">Under review at EACL 2027 · with Greta Damo, Elena Cabrio and Serena Villata</span>
+<span class="project-status">EACL 2027 · with Greta Damo, Elena Cabrio and Serena Villata</span>
 </p>
 
 ## The question
