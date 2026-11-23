@@ -259,20 +259,14 @@
           <p class="eyebrow reveal"><span class="num">07</span> · Contact</p>
           <a class="connect reveal" href="mailto:{{ email }}">Let's connect</a>
           {% if site.contact_note %}<p class="contact-note-text reveal">{{ site.contact_note }}</p>{% endif %}
-          <div class="contact-links reveal">
-            <a href="mailto:{{ email }}">{{ email }}</a>
-            {% if site.data.socials.github_username %}<a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
-            {% if site.data.socials.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
-            {% if site.data.socials.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
-            <a href="{{ cv_url }}" target="_blank" rel="noopener">Download CV</a>
+          <div class="social contact-social reveal">
+            <div class="contact-icons">
+              {% include social.liquid %}
+              <a href="{{ cv_url }}" target="_blank" rel="noopener" title="Download CV"><i class="fa-solid fa-file-pdf"></i></a>
+            </div>
           </div>
           {% if page.profile.more_info %}
             <div class="contact-address reveal">{{ page.profile.more_info }}</div>
-          {% endif %}
-          {% if page.social %}
-            <div class="social reveal">
-              <div class="contact-icons">{% include social.liquid %}</div>
-            </div>
           {% endif %}
         </div>
       </section>
