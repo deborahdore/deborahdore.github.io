@@ -930,8 +930,9 @@ footer.sticky-bottom {
 
 /* ---- Experience ---- */
 
-// Left inset matching .home-wrap content edge. Kept as a string so Sass does not strip calc().
-$exp-inset: unquote("max(clamp(1.25rem, 4vw, 2.5rem), calc((100% - 1180px) / 2 + clamp(1.25rem, 4vw, 2.5rem)))");
+// Left inset matching .home-wrap content edge. Kept as a string so Sass does not strip calc(),
+// and written without "+" because the CSS minifier removes the spaces around it (invalid in calc).
+$exp-inset: unquote("max(clamp(1.25rem, 4vw, 2.5rem), calc((100% - (1180px - 2 * clamp(1.25rem, 4vw, 2.5rem))) / 2))");
 
 .exp-track {
   display: flex;
