@@ -930,13 +930,16 @@ footer.sticky-bottom {
 
 /* ---- Experience ---- */
 
+// Left inset matching .home-wrap content edge. Kept as a string so Sass does not strip calc().
+$exp-inset: unquote("max(clamp(1.25rem, 4vw, 2.5rem), calc((100% - 1180px) / 2 + clamp(1.25rem, 4vw, 2.5rem)))");
+
 .exp-track {
   display: flex;
   gap: 1.1rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  scroll-padding-left: max(clamp(1.25rem, 4vw, 2.5rem), calc((100vw - 1180px) / 2 + 2.5rem));
-  padding: 1rem max(clamp(1.25rem, 4vw, 2.5rem), calc((100vw - 1180px) / 2 + 2.5rem)) 1.5rem;
+  scroll-padding-left: $exp-inset;
+  padding: 1rem $exp-inset 1.5rem;
   scrollbar-width: none;
 
   &::-webkit-scrollbar {
