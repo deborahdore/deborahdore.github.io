@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 hero:
-  badge: Open to research internships · starting May–July 2027
+  badge: Open to internships in AI · starting May–July 2027
   keywords:
     - Argument Mining
     - Large Language Models
