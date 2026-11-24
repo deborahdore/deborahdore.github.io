@@ -102,6 +102,16 @@
   links:
     - {label: Code, url: "https://github.com/deborahdore/ServiceBook"}
 
+- title: GymLog
+  category: Personal projects
+  year: 2026
+  note: iOS and watchOS app
+  img: projects/gymlog.webp
+  description: "An iPhone app to plan gym routines and chart weight progress, with a standalone Apple Watch app that runs the workout: sets, reps, weights, circuits and a programmable rest timer that buzzes when it is time to go again. It includes a catalog of 85 exercises with figures, syncs over WatchConnectivity with no account or server, and saves workouts to Apple Health."
+  tags: [Swift, SwiftUI, watchOS, HealthKit]
+  links:
+    - {label: Code, url: "https://github.com/deborahdore/gym-exercises"}
+
 # --- Teaching (single wide card) -----------------------------------------------
 
 - title: Data Analysis and Visualization

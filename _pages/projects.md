@@ -24,8 +24,8 @@ nav_order: 3
   <li><span class="step">Tools</span><a class="name" href="#disputool">DISPUTool</a><span class="what">Putting the analysis in front of readers, with <a href="#debatelens">DebateLens</a></span></li>
 </ol>
 
-{% assign sections = "Selected research:featured:1|More research:grid:2|Personal projects:grid:2|Teaching:wide:1|Machine learning and data:grid:3|Earlier work:list:1" | split: "|" %}
-{% assign intros = "|Supporting code and data for the papers above.|Apps I build in my spare time, both for iOS.||Projects from my MSc in Deep Learning and Applied AI at Sapienza.|Smaller projects from my BSc in Turin and the start of my MSc." | split: "|" %}
+{% assign sections = "Selected research:featured:1|More research:grid:2|Personal projects:grid:3|Teaching:wide:1|Machine learning and data:grid:3|Earlier work:list:1" | split: "|" %}
+{% assign intros = "|Supporting code and data for the papers above.|Apps I build in my spare time, for iPhone and Apple Watch.||Projects from my MSc in Deep Learning and Applied AI at Sapienza.|Smaller projects from my BSc in Turin and the start of my MSc." | split: "|" %}
 
 {% for section in sections %}
 {% assign parts = section | split: ":" %}
